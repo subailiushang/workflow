@@ -1,0 +1,124 @@
+{% extends 'base.html' %}
+
+{% block username1 %}
+    {{ username }}
+{% endblock %}
+
+{% block username2 %}
+    {{ username }}
+{% endblock %}
+
+{% block jobTitle %}
+{% endblock %}
+
+{% block pageTitle %}
+    <div class="col-sm-4">
+        <h2>DashBoard</h2>
+    </div>
+    <div class="col-sm-8">
+        <div class="title-action">
+            <button class="btn btn-primary" data-toggle="modal" data-target="#addModal">
+                仪表盘
+            </button>
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block mainContent %}
+
+    <div class="row">
+        <div class="col-md-6">
+            <div id="main1" style="width: 100%;height:400px;"></div>
+        </div>
+        <div class="col-md-6">
+            <div id="main2" style="width: 100%;height:400px;"></div>
+        </div>
+
+    </div>
+
+{% endblock %}
+
+{% block scripts %}
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        const myChart1 = echarts.init(document.getElementById('main1'));
+
+        // 指定图表的配置项和数据
+        const option1 = {
+            title: {
+                text: '本月项目时长汇总(小时)',
+                subtext: '所有项目',
+                x: 'center'
+            },
+            tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c} ({d}%)"
+            },
+            legend: {
+                orient: 'vertical',
+                left: 'left',
+                data: []
+            },
+            series: [
+                {
+                    name: '访问来源',
+                    type: 'pie',
+                    radius: '55%',
+                    center: ['50%', '60%'],
+                    data: [
+                        {% for monthlyReportByProject in monthlyReportsByProject %}
+                            {
+                                value:{{ monthlyReportByProject.total_time }},
+                                name: '{{ monthlyReportByProject.project }}'
+                            },
+                        {% endfor %}
+
+                    ],
+                    itemStyle: {
+                        emphasis: {
+                            shadowBlur: 10,
+                            shadowOffsetX: 0,
+                            shadowColor: 'rgba(0, 0, 0, 0.5)'
+                        }
+                    }
+                }
+            ]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart1.setOption(option1);
+    </script>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        const myChart2 = echarts.init(document.getElementById('main2'));
+
+        // 指定图表的配置项和数据
+        const option2 = {
+            title: {
+                text: '本月个人工时汇总(小时)'
+            },
+            tooltip: {},
+            legend: {
+                data: ['工时']
+            },
+            xAxis: {
+                data: [{% for monthlyReportByCreator in monthlyReportsByCreator %}
+                    "{{ monthlyReportByCreator.creator }}",
+                {% endfor %}]
+            },
+            yAxis: {},
+            series: [{
+                name: '销量',
+                type: 'bar',
+                data: [{% for monthlyReportByCreator in monthlyReportsByCreator %}
+                    "{{ monthlyReportByCreator.total_time }}",
+                {% endfor %}]
+            }]
+        };
+
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart2.setOption(option2);
+    </script>
+{% endblock %}

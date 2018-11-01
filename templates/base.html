@@ -1,0 +1,159 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WorkSpace</title>
+
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+    <link href="{% static 'css/font-awesome.css' %}" rel="stylesheet">
+
+    <link href="{% static 'css/animate.css' %}" rel="stylesheet">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+    <!-- dataTables -->
+    <link href="{% static 'css/dataTables/dataTables.bootstrap4.min.css' %}" rel="stylesheet">
+
+    <!-- 下拉选择框 -->
+    <link href="{% static 'css/bootstrap-select.css' %}" rel="stylesheet">
+
+    <!-- sweetalert -->
+    <link href="{% static 'css/sweetalert.css' %}" rel="stylesheet">
+
+    <!-- chosen -->
+    <link href="{% static 'css/chosen.css' %}" rel="stylesheet">
+
+</head>
+
+<body class="">
+
+<div id="wrapper">
+
+    <nav class="navbar-default navbar-static-side" role="navigation">
+        <div class="sidebar-collapse">
+            <ul class="nav metismenu" id="side-menu">
+                <li class="nav-header">
+                    <div class="dropdown profile-element">
+                        <img alt="image" class="rounded-circle" src="{% static 'img/profile_small.jpg' %}"/>
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                        </a>
+                    </div>
+                    <div class="logo-element">
+                        IN+
+                    </div>
+                </li>
+                <li>
+                    <a href="{% url 'dashboard' %}">
+                        <i class="fa fa-pie-chart"></i>
+                        <span class="nav-label">仪表盘</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url 'projects' %}">
+                        <i class="fa fa-table"></i>
+                        <span class="nav-label">项目列表</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url 'dailyReports' %}">
+                        <i class="fa fa-tasks"></i>
+                        <span class="nav-label">工作日报</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="page-wrapper" class="gray-bg">
+        <div class="row border-bottom">
+            <nav class="navbar navbar-static-top  " role="navigation" style="margin-bottom: 0">
+                <!-- 左侧边栏折叠按钮 -->
+                <div class="navbar-header">
+                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+                <ul class="nav navbar-top-links navbar-right">
+                    <li>
+                        <span class="m-r-sm text-muted welcome-message">
+                            欢迎 <span style="color: green">{% block username2 %}{% endblock %}</span>登陆
+                        </span>
+                    </li>
+                    <li>
+                        <a href="{% url 'logout' %}">
+                            <i class="fa fa-sign-out"></i> 登出
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- 内容区域 -->
+        <!-- 页面标题heading区域 -->
+
+        <div class="row wrapper border-bottom white-bg page-heading">
+            {% block pageTitle %}
+            {% endblock %}
+        </div>
+
+
+        <!-- 主要内容区域 -->
+        <div class="wrapper wrapper-content animated fadeInRight">
+            <!-- 内容块 -->
+            {% block mainContent %}
+
+            {% endblock %}
+        </div>
+
+
+        <!-- 页面尾部 -->
+        <div class="footer">
+            <div class="float-right">
+                <strong>Copyright</strong> pachira &copy; 2017-2020
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{% block modal %}
+{% endblock %}
+
+<!-- Mainly scripts -->
+<script src="{% static 'js/jquery-3.1.1.min.js' %}"></script>
+<script src="{% static 'js/popper.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.js' %}"></script>
+<script src="{% static 'js/jquery.metisMenu.js' %}"></script>
+<script src="{% static 'js/jquery.slimscroll.js' %}"></script>
+
+<!-- Custom and plugin javascript -->
+<script src="{% static 'js/inspinia.js' %}"></script>
+<script src="{% static 'js/pace.min.js' %}"></script>
+
+<!-- dataTables -->
+<script src="{% static 'js/jquery.dataTables.min.js' %}"></script>
+<script src="{% static 'js/dataTables.bootstrap4.min.js' %}"></script>
+
+<!-- ECharts -->
+<script src="{% static 'js/echarts.js' %}"></script>
+
+<!-- Bootstrap-selector -->
+<script src="{% static 'js/bootstrap-select.js' %}"></script>
+<script src="{% static 'js/bootstrao-selector-defaults-zh_CN.js' %}"></script>
+
+<!-- chosen -->
+<script src="{% static 'js/chosen.jquery.js' %}"></script>
+
+<!-- sweetalert -->
+<script src="{% static 'js/sweetalert.min.js' %}"></script>
+
+{% block scripts %}
+{% endblock %}
+
+</body>
+
+</html>

@@ -1,0 +1,314 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block username1 %}
+    {{ username }}
+{% endblock %}
+
+{% block username2 %}
+    {{ username }}
+{% endblock %}
+
+{% block jobTitle %}
+{% endblock %}
+
+{% block pageTitle %}
+    <div class="col-sm-4">
+        <h2>项目信息</h2>
+    </div>
+    <div class="col-sm-8">
+        <div class="title-action">
+            <button class="btn btn-primary" data-toggle="modal" data-target="#addModal">
+                新建项目信息
+            </button>
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block mainContent %}
+
+    <table id="example" class="table table-striped table-bordered table-hover text-nowrap" style="width:100%">
+        <thead>
+        <tr>
+            <th>项目编号</th>
+            <th>名称</th>
+            <th>阶段</th>
+            <th>城市</th>
+            <th>销售</th>
+            <th>项目经理</th>
+            <th>运维</th>
+            <th>开发</th>
+            <th>建模</th>
+            <th>代理商</th>
+            <th>授权到期</th>
+            <th>维保到期</th>
+            <th>产品版本</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for detail in details %}
+            <tr>
+                <td>{{ detail.id }}</td>
+                <td>{{ detail.name }}</td>
+                <td>{{ detail.stage }}</td>
+                <td>{{ detail.city }}</td>
+                <td>{{ detail.sales }}</td>
+                <td>{{ detail.manager }}</td>
+                <td>{{ detail.operator }}</td>
+                <td>{{ detail.developer }}</td>
+                <td>{{ detail.business }}</td>
+                <td>{{ detail.agent }}</td>
+                <td>{{ detail.license|date:"Y-m-d" }}</td>
+                <td>{{ detail.maintaince|date:"Y-m-d" }}</td>
+                <td>{{ detail.product }}</td>
+                <td>
+                    <button class="btn btn-danger btn-sm" data-toggle="modal" data-target="#editModal"
+                            id="{{ detail.id }}" onclick="editInfo(this)">
+                        修改
+                    </button>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+
+    </table>
+{% endblock %}
+
+{% block modal %}
+    <div class="modal fade bd-example-modal-lg" id="addModal" tabindex="-1" role="dialog"
+         aria-labelledby="myLargeModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <form action="{% url 'projects' %}" role="form" method="post">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="exampleModalLabel">
+                            新建项目
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-4 form-group">
+                                    <label for="name1">项目名称：</label>
+                                    <input class="form-control" type="text" name="name" id="name1" required>
+                                </div>
+
+                                <div class="col-md-4 form-group">
+                                    <label for="stage1">项目阶段：</label>
+                                    <input class="form-control" type="text" name="stage" id="stage1" required>
+                                </div>
+                                <div class="col-md-4 form-group">
+                                    <label for="city1">城市：</label>
+                                    <input class="form-control" type="text" name="city" id="city1" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 form-group">
+                                    <label for="sales1">销售：</label>
+                                    <input class="form-control" type="text" name="sales" id="sales1" required>
+                                </div>
+
+                                <div class="col-md-4 form-group">
+                                    <label for="manager1">项目经理：</label>
+                                    <input class="form-control" type="text" name="manager" id="manager1" required>
+                                </div>
+                                <div class="col-md-4 form-group">
+                                    <label for="operator1">运维：</label>
+                                    <input class="form-control" type="text" name="operator" id="operator1" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 form-group">
+                                    <label for="developer1">开发：</label>
+                                    <input class="form-control" type="text" name="developer" id="developer1" required>
+                                </div>
+
+                                <div class="col-md-4 form-group">
+                                    <label for="business1">建模：</label>
+                                    <input class="form-control" type="text" name="business" id="business1" required>
+                                </div>
+                                <div class="col-md-4 form-group">
+                                    <label for="agent1">代理商：</label>
+                                    <input class="form-control" type="text" name="agent" id="agent1" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 form-group">
+                                    <label for="license1">授权到期：</label>
+                                    <input class="form-control" type="text" name="license" id="license1"
+                                           placeholder="2018-10-01" required>
+                                </div>
+
+                                <div class="col-md-4 form-group">
+                                    <label for="maintaince1">维保到期：</label>
+                                    <input class="form-control" type="text" name="maintaince" id="maintaince1"
+                                           placeholder="2018-10-01" required>
+                                </div>
+                                <div class="col-md-4 form-group">
+                                    <label for="product1">产品版本：</label>
+                                    <input class="form-control" type="text" name="product" id="product1"
+                                           placeholder="qianxun4.5" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                        <button type="submit" class="btn btn-primary">保存</button>
+                    </div>
+                </div>
+                {% csrf_token %}
+            </form>
+        </div>
+    </div>
+
+    <div class="modal fade bd-example-modal-lg" id="editModal" tabindex="-1" role="dialog"
+         aria-labelledby="myLargeModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <form action="{% url 'projects' %}" role="form" method="post">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="exampleModalLabel">
+                            修改项目信息
+                        </h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-4 form-group">
+                                    <label for="id2">编号：</label>
+                                    <input class="form-control" type="text" name="id" id="id2" readonly>
+                                </div>
+                                <div class="col-md-4 form-group">
+                                    <label for="name2">项目名称：</label>
+                                    <input class="form-control" type="text" name="name" id="name2" required>
+                                </div>
+
+                                <div class="col-md-4 form-group">
+                                    <label for="stage2">项目阶段：</label>
+                                    <input class="form-control" type="text" name="stage" id="stage2" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 form-group">
+                                    <label for="sales2">销售：</label>
+                                    <input class="form-control" type="text" name="sales" id="sales2" required>
+                                </div>
+
+                                <div class="col-md-4 form-group">
+                                    <label for="manager2">项目经理：</label>
+                                    <input class="form-control" type="text" name="manager" id="manager2" required>
+                                </div>
+                                <div class="col-md-4 form-group">
+                                    <label for="operator2">运维：</label>
+                                    <input class="form-control" type="text" name="operator" id="operator2" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 form-group">
+                                    <label for="developer2">开发：</label>
+                                    <input class="form-control" type="text" name="developer" id="developer2" required>
+                                </div>
+
+                                <div class="col-md-4 form-group">
+                                    <label for="business2">建模：</label>
+                                    <input class="form-control" type="text" name="business" id="business2" required>
+                                </div>
+                                <div class="col-md-4 form-group">
+                                    <label for="agent2">代理商：</label>
+                                    <input class="form-control" type="text" name="agent" id="agent2" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 form-group">
+                                    <label for="license2">授权到期：</label>
+                                    <input class="form-control" type="text" name="license" id="license2" required>
+                                </div>
+
+                                <div class="col-md-4 form-group">
+                                    <label for="maintaince2">维保到期：</label>
+                                    <input class="form-control" type="text" name="maintaince" id="maintaince2" required>
+                                </div>
+                                <div class="col-md-4 form-group">
+                                    <label for="product2">产品版本：</label>
+                                    <input class="form-control" type="text" name="product" id="product2" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 form-group">
+                                    <label for="city2">城市：</label>
+                                    <input class="form-control" type="text" name="city" id="city2" required>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                        <button type="submit" class="btn btn-primary">提交修改</button>
+                    </div>
+                </div>
+                {% csrf_token %}
+            </form>
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block scripts %}
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#example').DataTable({
+                fixedColumns: true,
+                responsive: true,
+                language: {
+                    "url": "{% static 'css/dataTables/chineses.json' %}"
+                },
+            });
+        });
+
+    </script>
+
+    <script>
+        function editInfo(obj) {
+            // 取到当前点击对象的id信息
+            const id = $(obj).attr("id");
+            // 获取当前对象的所有tr父类的td子类
+            const values = $(obj).parents('tr').children('td');
+            // 遍历获取子类数据
+            const name = values.eq(1).text();
+            const stage = values.eq(2).text();
+            const city = values.eq(3).text();
+            const sales = values.eq(4).text();
+            const manager = values.eq(5).text();
+            const operator = values.eq(6).text();
+            const developer = values.eq(7).text();
+            const business = values.eq(8).text();
+            const agent = values.eq(9).text();
+            const license = values.eq(10).text();
+            const maintaince = values.eq(11).text();
+            const product = values.eq(12).text();
+
+            $("#id2").val(id);
+            $("#name2").val(name);
+            $("#stage2").val(stage);
+            $("#city2").val(city);
+            $("#sales2").val(sales);
+            $("#manager2").val(manager);
+            $("#operator2").val(operator);
+            $("#developer2").val(developer);
+            $("#business2").val(business);
+            $("#agent2").val(agent);
+            $("#license2").val(license);
+            $("#maintaince2").val(maintaince);
+            $("#product2").val(product);
+        }
+    </script>
+{% endblock %}

@@ -1,0 +1,65 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WorkSpace | 注册</title>
+
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+    <link href="{% static 'css/font-awesome.css' %}" rel="stylesheet">
+    <link href="{% static 'css/custom.css' %}" rel="stylesheet">
+    <link href="{% static 'css/animate.css' %}" rel="stylesheet">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg">
+
+<div class="middle-box text-center loginscreen   animated fadeInDown">
+    <div>
+        <div>
+
+            <h1 class="logo-name">A+</h1>
+
+        </div>
+        <h3>Register to A+</h3>
+        <p>创建账号</p>
+        <form class="m-t" role="form" action="{% url 'register' %}" method="post">
+            <div class="form-group">
+                <input type="email" class="form-control" name="email" placeholder="@pachiratech.com" required="">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="password" placeholder="公司邮箱密码" required="">
+                <h5 style="color: red">{{ error }}</h5>
+            </div>
+            <button type="submit" class="btn btn-primary block full-width m-b">注册</button>
+            <a class="btn btn-sm btn-white btn-block" href="{% url 'login' %}">登陆</a>
+            {% csrf_token %}
+        </form>
+        <p class="m-t">
+            <small>pachira.cn &copy; 2018</small>
+        </p>
+    </div>
+</div>
+
+<!-- Mainly scripts -->
+<script src="{% static 'js/jquery-3.1.1.min.js' %}"></script>
+<script src="{% static 'js/popper.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.js' %}"></script>
+<!-- iCheck -->
+<script src="{% static 'js/icheck.min.js' %}"></script>
+<script>
+    $(document).ready(function () {
+        $('.i-checks').iCheck({
+            checkboxClass: 'icheckbox_square-green',
+            radioClass: 'iradio_square-green',
+        });
+    });
+</script>
+</body>
+
+</html>

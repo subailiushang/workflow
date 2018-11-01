@@ -1,0 +1,1175 @@
+[2018-10-30 21:01:31,210]-[Thread-1:15676]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 65, in dailyReports
+    context={'names': names, 'reports': reports, 'sumReports': sumReports, 'username': username})
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 445, in parse
+    raise self.error(token, 'Empty variable tag on line %d' % token.lineno)
+django.template.exceptions.TemplateSyntaxError: Empty variable tag on line 195
+[2018-10-30 21:10:47,521]-[Thread-1:9208]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 59, in dailyReports
+    logger.info(todayReports)
+UnboundLocalError: local variable 'todayReport' referenced before assignment
+[2018-10-30 21:10:49,024]-[Thread-3:16992]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 59, in dailyReports
+    logger.info(todayReports)
+UnboundLocalError: local variable 'todayReport' referenced before assignment
+[2018-10-30 21:10:49,894]-[Thread-4:18848]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 59, in dailyReports
+    logger.info(todayReports)
+UnboundLocalError: local variable 'todayReport' referenced before assignment
+[2018-10-30 21:10:50,704]-[Thread-5:14184]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 59, in dailyReports
+    logger.info(todayReports)
+UnboundLocalError: local variable 'todayReport' referenced before assignment
+[2018-10-30 21:48:07,582]-[Thread-8:5852]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/projects]
+Traceback (most recent call last):
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 108, in projects
+    Project.objects.get(name=name)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 399, in get
+    self.model._meta.object_name
+workspace.models.Project.DoesNotExist: Project matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\sqlite3\base.py", line 296, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: workspace_project.name
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 114, in projects
+    maintaince=maintaince, product=product)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 413, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\sqlite3\base.py", line 296, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: workspace_project.name
+[2018-10-30 21:51:52,397]-[Thread-70:19340]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\sqlite3\base.py", line 296, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: workspace_dailyreports.working_time
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 80, in dailyReports
+    DailyReports.objects.create(project=name, working_time=working_time, content=content, week=week)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 413, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\sqlite3\base.py", line 296, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: workspace_dailyreports.working_time
+[2018-10-30 21:52:47,328]-[Thread-76:9364]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\sqlite3\base.py", line 296, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: workspace_dailyreports.working_time
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 80, in dailyReports
+    DailyReports.objects.create(project=name, working_time=working_time, content=content, week=week)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 413, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\sqlite3\base.py", line 296, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: workspace_dailyreports.working_time
+[2018-10-30 21:53:54,869]-[Thread-88:8496]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\sqlite3\base.py", line 296, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: workspace_dailyreports.working_time
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 80, in dailyReports
+    DailyReports.objects.create(project=name, working_time=working_time, content=content, week=week)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 413, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\sqlite3\base.py", line 296, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: workspace_dailyreports.working_time
+[2018-10-30 21:57:08,048]-[Thread-12:1572]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\sqlite3\base.py", line 296, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: workspace_dailyreports.working_time
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 80, in dailyReports
+    DailyReports.objects.create(project=name, working_time=working_time, content=content, week=week)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 413, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\sqlite3\base.py", line 296, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: workspace_dailyreports.working_time
+[2018-10-30 22:41:25,506]-[Thread-29:13600]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 89, in dailyReports
+    SendEmail()
+TypeError: __init__() missing 4 required positional arguments: 'sender', 'passwd', 'subject', and 'content'
+[2018-10-30 22:42:57,385]-[Thread-3:19888]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 89, in dailyReports
+    SendEmail()
+TypeError: __init__() missing 4 required positional arguments: 'sender', 'passwd', 'subject', and 'content'
+[2018-10-30 22:44:15,800]-[Thread-1:19760]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 89, in dailyReports
+    SendEmail()
+TypeError: __init__() missing 4 required positional arguments: 'sender', 'passwd', 'subject', and 'content'
+[2018-10-30 22:45:09,497]-[Thread-1:16492]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 89, in dailyReports
+    SendEmail()
+TypeError: __init__() missing 4 required positional arguments: 'sender', 'passwd', 'subject', and 'content'
+[2018-10-30 22:51:11,704]-[Thread-4:5740]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 102, in dailyReports
+    # if flag:
+NameError: name 'flag' is not defined
+[2018-10-30 22:59:04,991]-[Thread-39:10836]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 74, in dailyReports
+    'today': today, 'todayReports': todayReports, 'users': users})
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\defaulttags.py", line 166, in render
+    len_values = len(values)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 250, in __len__
+    self._fetch_all()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 1186, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 106, in __iter__
+    for row in compiler.results_iter(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1017, in results_iter
+    results = self.execute_sql(MULTI, chunked_fetch=chunked_fetch, chunk_size=chunk_size)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1097, in execute_sql
+    return list(result)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1466, in cursor_iter
+    for rows in iter((lambda: cursor.fetchmany(itersize)), sentinel):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1466, in <lambda>
+    for rows in iter((lambda: cursor.fetchmany(itersize)), sentinel):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\utils.py", line 96, in inner
+    return func(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\sqlite3\dbapi2.py", line 64, in convert_date
+    return datetime.date(*map(int, val.split(b"-")))
+OverflowError: Python int too large to convert to C long
+[2018-10-30 22:59:12,601]-[Thread-41:19320]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 74, in dailyReports
+    'today': today, 'todayReports': todayReports, 'users': users})
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\defaulttags.py", line 166, in render
+    len_values = len(values)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 250, in __len__
+    self._fetch_all()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 1186, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 106, in __iter__
+    for row in compiler.results_iter(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1017, in results_iter
+    results = self.execute_sql(MULTI, chunked_fetch=chunked_fetch, chunk_size=chunk_size)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1097, in execute_sql
+    return list(result)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1466, in cursor_iter
+    for rows in iter((lambda: cursor.fetchmany(itersize)), sentinel):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1466, in <lambda>
+    for rows in iter((lambda: cursor.fetchmany(itersize)), sentinel):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\utils.py", line 96, in inner
+    return func(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\sqlite3\dbapi2.py", line 64, in convert_date
+    return datetime.date(*map(int, val.split(b"-")))
+OverflowError: Python int too large to convert to C long
+[2018-10-30 23:14:48,774]-[Thread-3:12656]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 137, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view workspace.views.dailyReports didn't return an HttpResponse object. It returned None instead.
+[2018-10-30 23:15:13,505]-[Thread-1:15920]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 137, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view workspace.views.dailyReports didn't return an HttpResponse object. It returned None instead.
+[2018-10-30 23:15:20,372]-[Thread-3:17512]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 137, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view workspace.views.dailyReports didn't return an HttpResponse object. It returned None instead.
+[2018-10-30 23:15:44,124]-[Thread-3:10664]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 137, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view workspace.views.dailyReports didn't return an HttpResponse object. It returned None instead.
+[2018-10-30 23:18:52,820]-[Thread-3:19180]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 97, in dailyReports
+    flag = mail.sender(emails)
+TypeError: 'str' object is not callable
+[2018-10-30 23:19:28,861]-[Thread-1:1632]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 97, in dailyReports
+    mail.sender(emails)
+TypeError: 'str' object is not callable
+[2018-10-30 23:20:49,539]-[Thread-4:10732]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 97, in dailyReports
+    mail.sender(emails)
+TypeError: 'str' object is not callable
+[2018-10-31 09:32:25,061]-[Thread-4:7456]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 93, in dailyReports
+    subject = username + today + "日报"
+TypeError: can only concatenate str (not "datetime.date") to str
+[2018-10-31 10:02:49,077]-[Thread-4:1688]-[task_id:zmail]-[abc.py:68]-[CRITICAL]-[SMTPServer access error :(535, b'authentication failed (#5.7.1)')]
+[2018-10-31 10:04:36,871]-[Thread-8:18672]-[task_id:zmail]-[abc.py:68]-[CRITICAL]-[SMTPServer access error :(535, b'authentication failed (#5.7.1)')]
+[2018-10-31 10:04:59,418]-[Thread-11:14516]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 107, in dailyReports
+    server.send_mail(receivers, mail=mail_content)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\zmail\server.py", line 103, in send_mail
+    server.send(recipients, _mail, timeout or self.timeout, auto_add_to or self.auto_add_to)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\zmail\server.py", line 268, in send
+    mail.set_mime_header('To', '{}<{}>'.format(recipient.split("@")[0], recipient))
+AttributeError: 'SendEmail' object has no attribute 'split'
+[2018-10-31 10:12:50,840]-[Thread-3:20544]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 102, in dailyReports
+    logger.info("邮件接收人:" + receivers)
+TypeError: can only concatenate str (not "list") to str
+[2018-10-31 10:59:43,158]-[Thread-3:20872]-[task_id:zmail]-[abc.py:68]-[CRITICAL]-[SMTPServer access error :(535, b'authentication failed (#5.7.1)')]
+[2018-10-31 10:59:51,071]-[Thread-4:17548]-[task_id:zmail]-[abc.py:68]-[CRITICAL]-[SMTPServer access error :(535, b'authentication failed (#5.7.1)')]
+[2018-10-31 11:07:44,407]-[Thread-21:8652]-[task_id:zmail]-[abc.py:68]-[CRITICAL]-[SMTPServer access error :(535, b'authentication failed (#5.7.1)')]
+[2018-10-31 11:07:44,407]-[Thread-21:8652]-[task_id:default]-[views.py:51]-[ERROR]-[密码验证失败]
+[2018-10-31 11:09:48,430]-[Thread-34:18460]-[task_id:zmail]-[abc.py:68]-[CRITICAL]-[SMTPServer access error :(535, b'authentication failed (#5.7.1)')]
+[2018-10-31 11:09:48,430]-[Thread-34:18460]-[task_id:default]-[views.py:51]-[ERROR]-[密码验证失败]
+[2018-10-31 12:43:40,387]-[Thread-1:8724]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dashboard]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 185, in dashboard
+    a = DailyReports.objects.filter(date=i).values_list()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1268, in get_prep_value
+    return self.to_python(value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1230, in to_python
+    parsed = parse_date(value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or bytes-like object
+[2018-10-31 12:43:41,573]-[Thread-3:16128]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dashboard]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 185, in dashboard
+    a = DailyReports.objects.filter(date=i).values_list()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1268, in get_prep_value
+    return self.to_python(value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1230, in to_python
+    parsed = parse_date(value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or bytes-like object
+[2018-10-31 12:43:42,194]-[Thread-4:11408]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dashboard]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 185, in dashboard
+    a = DailyReports.objects.filter(date=i).values_list()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1268, in get_prep_value
+    return self.to_python(value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1230, in to_python
+    parsed = parse_date(value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or bytes-like object
+[2018-10-31 12:43:42,443]-[Thread-5:11772]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dashboard]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 185, in dashboard
+    a = DailyReports.objects.filter(date=i).values_list()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1268, in get_prep_value
+    return self.to_python(value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1230, in to_python
+    parsed = parse_date(value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or bytes-like object
+[2018-10-31 12:43:42,641]-[Thread-6:1468]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dashboard]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 185, in dashboard
+    a = DailyReports.objects.filter(date=i).values_list()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1268, in get_prep_value
+    return self.to_python(value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1230, in to_python
+    parsed = parse_date(value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or bytes-like object
+[2018-10-31 12:44:05,724]-[Thread-1:8816]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dashboard]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 185, in dashboard
+    a = DailyReports.objects.filter(date=i).all()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1268, in get_prep_value
+    return self.to_python(value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1230, in to_python
+    parsed = parse_date(value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or bytes-like object
+[2018-10-31 12:44:28,916]-[Thread-1:19044]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dashboard]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 185, in dashboard
+    a = DailyReports.objects.filter(date=str(i)).all()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1268, in get_prep_value
+    return self.to_python(value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1243, in to_python
+    params={'value': value},
+django.core.exceptions.ValidationError: ['’(datetime.date(2018, 10, 30),)‘ 必须为合法的日期格式，请使用 YYYY-MM-DD 格式。']
+[2018-10-31 12:44:52,698]-[Thread-1:8072]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dashboard]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 185, in dashboard
+    a = DailyReports.objects.filter(date=i).all()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1268, in get_prep_value
+    return self.to_python(value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1230, in to_python
+    parsed = parse_date(value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or bytes-like object
+[2018-10-31 13:09:58,137]-[Thread-3:12496]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 103, in dailyReports
+    DailyReports.objects.get(project=name, date=today)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 403, in get
+    (self.model._meta.object_name, num)
+workspace.models.DailyReports.MultipleObjectsReturned: get() returned more than one DailyReports -- it returned 2!
+[2018-10-31 13:20:17,518]-[Thread-1:1620]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dashboard]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 185, in dashboard
+    month = DailyReports.objects.filter(creator=username, date__range='2018-10-30').values_list(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\lookups.py", line 210, in get_prep_lookup
+    rhs_value = self.lhs.output_field.get_prep_value(rhs_value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1268, in get_prep_value
+    return self.to_python(value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1243, in to_python
+    params={'value': value},
+django.core.exceptions.ValidationError: ['’2‘ 必须为合法的日期格式，请使用 YYYY-MM-DD 格式。']
+[2018-10-31 13:49:13,138]-[Thread-1:14220]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dashboard]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 184, in dashboard
+    a = Project.objects.filter(projects).values()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1161, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable function object
+[2018-10-31 14:10:41,640]-[Thread-1:21264]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dashboard]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 189, in dashboard
+    print(b)
+TypeError: 'QuerySet' object does not support item assignment
+[2018-10-31 14:28:32,353]-[Thread-1:22212]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dashboard]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 189, in dashboard
+    print(b)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 244, in __repr__
+    data = list(self[:REPR_OUTPUT_SIZE + 1])
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 268, in __iter__
+    self._fetch_all()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 1186, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 106, in __iter__
+    for row in compiler.results_iter(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1017, in results_iter
+    results = self.execute_sql(MULTI, chunked_fetch=chunked_fetch, chunk_size=chunk_size)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1052, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 472, in as_sql
+    distinct_params,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\base\operations.py", line 171, in distinct_sql
+    raise NotSupportedError('DISTINCT ON fields is not supported by this database backend')
+django.db.utils.NotSupportedError: DISTINCT ON fields is not supported by this database backend
+[2018-10-31 18:16:18,693]-[Thread-7:25396]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/del_dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 144, in del_dailyReports
+    return render(request, 'dailyReports')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: dailyReports
+[2018-10-31 18:16:59,686]-[Thread-13:13000]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 108, in dailyReports
+    creator=username)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 413, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1288, in execute_sql
+    for sql, params in self.as_sql():
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1241, in as_sql
+    for obj in self.query.objs
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1241, in <listcomp>
+    for obj in self.query.objs
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1240, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1182, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 790, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 785, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1737, in get_prep_value
+    return float(value)
+ValueError: could not convert string to float: 'q'
+[2018-10-31 18:29:52,102]-[Thread-13:18948]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/del_dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\codes\mysite\workspace\views.py", line 144, in del_dailyReports
+    return JsonResponse(content={'flag': '1'})
+TypeError: __init__() missing 1 required positional argument: 'data'
+[2018-10-31 21:11:56,640]-[Thread-1:140717874558720]-[task_id:django.security.DisallowedHost]-[exception.py:77]-[ERROR]-[Invalid HTTP_HOST header: '112.65.187.90:63181'. You may need to add '112.65.187.90' to ALLOWED_HOSTS.]
+[2018-10-31 21:11:56,766]-[Thread-3:140717874558720]-[task_id:django.security.DisallowedHost]-[exception.py:77]-[ERROR]-[Invalid HTTP_HOST header: '112.65.187.90:63181'. You may need to add '112.65.187.90' to ALLOWED_HOSTS.]

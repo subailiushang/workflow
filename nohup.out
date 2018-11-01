@@ -1,0 +1,1753 @@
+[INFO][2018-10-31 21:16:50,791][views.py:198]<QuerySet [{'project': '和君纵达', 'total_time': 4.0}, {'project': '中通速递', 'total_time': 3.0}, {'project': '国金证券', 'total_time': 3.0}]>
+[INFO][2018-10-31 21:16:50,793][views.py:203]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 10.0}]>
+[31/Oct/2018 21:16:50] "GET /work/dashboard HTTP/1.1" 200 7861
+[31/Oct/2018 21:16:50] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:16:50] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:16:50] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:16:50] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:16:50] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:16:50] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:16:50] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:16:50] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:16:50] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:16:50] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:16:50] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:16:50] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:16:50] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:16:50] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:16:50] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:16:50] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:16:50] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:16:50] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:16:50] "GET /static/img/profile_small.jpg HTTP/1.1" 200 11988
+[31/Oct/2018 21:16:51] "GET /static/css/patterns/header-profile.png HTTP/1.1" 200 5877
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:16:51,257][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:16:51] "GET /favicon.ico HTTP/1.1" 404 2082
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 31, 2018 - 21:16:38
+Django version 2.1.2, using settings 'mysite.settings'
+Starting development server at http://0.0.0.0:63181/
+Quit the server with CONTROL-C.
+[INFO][2018-10-31 21:17:16,863][views.py:198]<QuerySet [{'project': '和君纵达', 'total_time': 4.0}, {'project': '中通速递', 'total_time': 3.0}, {'project': '国金证券', 'total_time': 3.0}]>
+[INFO][2018-10-31 21:17:16,865][views.py:203]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 10.0}]>
+[31/Oct/2018 21:17:16] "GET /work/dashboard HTTP/1.1" 200 7861
+[31/Oct/2018 21:17:16] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:17:17] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:17:17] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:17:17] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:17:17] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:17:17] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:17:17] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:17:17] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:17:17] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:17:17] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:17:17] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:17:17] "GET /static/img/profile_small.jpg HTTP/1.1" 200 11988
+[31/Oct/2018 21:17:17] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:17:17] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:17:17] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:17:17] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:17:17] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:17:17] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:17:17] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:17:17] "GET /static/css/patterns/header-profile.png HTTP/1.1" 200 5877
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:17:17,280][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:17:17] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:17:19] "GET /work/projects HTTP/1.1" 200 20997
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:17:20,099][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:17:20] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:17:20] "GET /work/dailyReports HTTP/1.1" 200 16279
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:17:20,983][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:17:20] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:17:21] "GET /work/projects HTTP/1.1" 200 20997
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:17:21,910][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:17:21] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:17:22] "GET /work/dailyReports HTTP/1.1" 200 16279
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:17:22,377][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:17:22] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:17:23] "GET /work/dailyReports HTTP/1.1" 200 16279
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:17:23,594][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:17:23] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:17:45] "GET /work/dailyReports HTTP/1.1" 200 16279
+[31/Oct/2018 21:17:45] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:17:45] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:17:45] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:17:45] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:17:45] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:17:45] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:17:45] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:17:45] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:17:45] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:17:45] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:17:45] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:17:45] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:17:45] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:17:45] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:17:45] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:17:45] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:17:45] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:17:45] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:17:45] "GET /static/img/profile_small.jpg HTTP/1.1" 200 11988
+[31/Oct/2018 21:17:45] "GET /static/css/patterns/header-profile.png HTTP/1.1" 200 5877
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:17:45,533][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:17:45] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:19:25] "GET /work/dailyReports HTTP/1.1" 200 16279
+[31/Oct/2018 21:19:25] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:19:25] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:19:25] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:19:25] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:19:25] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:19:25] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:19:25] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:19:25] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:19:25] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:19:25] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:19:25] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:19:25] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:19:25] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:19:25] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:19:25] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:19:25] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:19:25] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:19:25] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:19:25] "GET /static/img/profile_small.jpg HTTP/1.1" 200 11988
+[31/Oct/2018 21:19:25] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:19:25,625][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:19:25] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:19:26] "GET /work/projects HTTP/1.1" 200 20997
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:19:26,798][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:19:26] "GET /favicon.ico HTTP/1.1" 404 2082
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 31, 2018 - 21:17:08
+Django version 2.1.2, using settings 'mysite.settings'
+Starting development server at http://0.0.0.0:63181/
+Quit the server with CONTROL-C.
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+[31/Oct/2018 21:21:04] "GET /work/projects HTTP/1.1" 200 20997
+[31/Oct/2018 21:21:04] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:21:04] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:21:04] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:21:04] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:21:04] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:21:04] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:21:04] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:21:04] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:21:04] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:21:04] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:21:04] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:21:04] "GET /static/img/profile_small.jpg HTTP/1.1" 200 11988
+[31/Oct/2018 21:21:05] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:21:05] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:21:05] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:21:05] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:21:05] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:21:05] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:21:05] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:21:05] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:21:05,207][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:21:05] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:21:06] "GET /work/projects HTTP/1.1" 200 20997
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:21:06,679][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:21:06] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:21:06] "GET /work/dailyReports HTTP/1.1" 200 16279
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:21:07,257][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:21:07] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:21:07] "GET /work/projects HTTP/1.1" 200 20997
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:21:07,870][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:21:07] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:21:08] "GET /work/dailyReports HTTP/1.1" 200 16279
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:21:08,579][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:21:08] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:31:26] "GET /work/dailyReports HTTP/1.1" 200 16279
+[31/Oct/2018 21:31:26] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:31:26] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:31:26] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:31:26] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:31:26] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:31:26] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:31:26] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:26] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:26] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:26] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:26] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:26] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:26] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:26] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:26] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:26] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:26] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:26] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:29] "GET /static/img/profile_small.jpg HTTP/1.1" 200 11988
+[31/Oct/2018 21:31:29] "GET /static/css/patterns/header-profile.png HTTP/1.1" 200 5877
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:31:29,230][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:31:29] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:31:30] "GET /work/dailyReports HTTP/1.1" 200 16279
+[31/Oct/2018 21:31:30] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:31:30] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:31:30] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:31:30] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:31:30] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:31:30] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:31:30] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:30] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:30] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:30] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:30] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:30] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:30] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:30] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:30] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:30] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:30] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:30] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:30] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 21:31:30] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:31:31,098][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:31:31] "GET /favicon.ico HTTP/1.1" 404 2082
+[INFO][2018-10-31 21:31:31,912][views.py:199]<QuerySet [{'project': '和君纵达', 'total_time': 4.0}, {'project': '中通速递', 'total_time': 3.0}, {'project': '国金证券', 'total_time': 3.0}]>
+[INFO][2018-10-31 21:31:31,914][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 10.0}]>
+[31/Oct/2018 21:31:31] "GET /work/dashboard HTTP/1.1" 200 7861
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:31:32,269][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:31:32] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:31:32] "GET /work/projects HTTP/1.1" 200 20997
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:31:33,149][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:31:33] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:31:33] "GET /work/dailyReports HTTP/1.1" 200 16279
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:31:33,973][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:31:33] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:31:34] "GET /work/projects HTTP/1.1" 200 20997
+[INFO][2018-10-31 21:31:35,280][views.py:199]<QuerySet [{'project': '和君纵达', 'total_time': 4.0}, {'project': '中通速递', 'total_time': 3.0}, {'project': '国金证券', 'total_time': 3.0}]>
+[INFO][2018-10-31 21:31:35,282][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 10.0}]>
+[31/Oct/2018 21:31:35] "GET /work/dashboard HTTP/1.1" 200 7861
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:31:35,612][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:31:35] "GET /favicon.ico HTTP/1.1" 404 2082
+[INFO][2018-10-31 21:31:53,892][views.py:199]<QuerySet [{'project': '和君纵达', 'total_time': 4.0}, {'project': '中通速递', 'total_time': 3.0}, {'project': '国金证券', 'total_time': 3.0}]>
+[INFO][2018-10-31 21:31:53,894][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 10.0}]>
+[31/Oct/2018 21:31:53] "GET /work/dashboard HTTP/1.1" 200 7849
+[31/Oct/2018 21:31:54] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:31:54] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:31:54] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:31:54] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:31:54] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:31:54] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:31:54] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:54] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:54] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:54] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:54] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:54] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:54] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:54] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:54] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:54] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:54] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:54] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:31:54] "GET /static/img/profile_small.jpg HTTP/1.1" 200 11988
+[31/Oct/2018 21:31:54] "GET /static/css/patterns/header-profile.png HTTP/1.1" 200 5877
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:31:54,347][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:31:54] "GET /favicon.ico HTTP/1.1" 404 2082
+[INFO][2018-10-31 21:32:47,805][views.py:199]<QuerySet [{'project': '和君纵达', 'total_time': 4.0}, {'project': '中通速递', 'total_time': 3.0}, {'project': '国金证券', 'total_time': 3.0}]>
+[INFO][2018-10-31 21:32:47,807][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 10.0}]>
+[31/Oct/2018 21:32:47] "GET /work/dashboard HTTP/1.1" 200 7849
+[31/Oct/2018 21:32:47] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:32:47] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:32:47] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:32:47] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:32:47] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:32:47] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:32:47] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:32:47] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:32:47] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:32:47] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:32:47] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:32:47] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:32:47] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:32:47] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:32:47] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:32:47] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:32:47] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:32:47] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:32:48] "GET /static/img/profile_small.jpg HTTP/1.1" 200 11988
+[31/Oct/2018 21:32:48] "GET /static/css/patterns/header-profile.png HTTP/1.1" 200 5877
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:32:48,212][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:32:48] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:33:08] "GET /work/dailyReports HTTP/1.1" 200 16267
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:33:08,335][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:33:08] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:33:45] "GET /work/dailyReports HTTP/1.1" 200 16225
+[31/Oct/2018 21:33:45] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:33:45] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:33:45] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:33:45] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:33:45] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:33:45] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:33:45] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:33:45] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:33:45] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:33:45] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:33:45] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:33:45] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:33:45] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:33:45] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:33:45] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:33:45] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:33:45] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:33:45] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:33:45] "GET /static/img/profile_small.jpg HTTP/1.1" 200 11988
+[31/Oct/2018 21:33:45] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:33:45,786][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:33:45] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:33:53] "GET /work/dailyReports HTTP/1.1" 200 16094
+[31/Oct/2018 21:33:53] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:33:53] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:33:53] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:33:53] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:33:53] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:33:53] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:33:53] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:33:53] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:33:53] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:33:53] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:33:53] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:33:53] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:33:53] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:33:53] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:33:53] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:33:53] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:33:53] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:33:53] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:33:53] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 21:33:53] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:33:53,543][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:33:53] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:34:08] "GET /work/dailyReports HTTP/1.1" 200 16091
+[31/Oct/2018 21:34:08] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:34:08] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:34:08] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:34:08] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:34:08] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:34:08] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:34:08] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:34:08] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:34:08] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:34:08] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:34:08] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:34:08] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:34:08] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:34:08] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:34:08] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:34:08] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:34:08] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:34:08] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:34:08] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 21:34:08] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:34:08,646][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:34:08] "GET /favicon.ico HTTP/1.1" 404 2082
+[INFO][2018-10-31 21:34:14,784][views.py:199]<QuerySet [{'project': '和君纵达', 'total_time': 4.0}, {'project': '中通速递', 'total_time': 3.0}, {'project': '国金证券', 'total_time': 3.0}]>
+[INFO][2018-10-31 21:34:14,786][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 10.0}]>
+[31/Oct/2018 21:34:14] "GET /work/dashboard HTTP/1.1" 200 7673
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:34:15,114][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:34:15] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:34:34] "GET /work/dailyReports HTTP/1.1" 200 16091
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:34:34,542][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:34:34] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:34:34] "GET /work/projects HTTP/1.1" 200 20809
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:34:35,179][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:34:35] "GET /favicon.ico HTTP/1.1" 404 2082
+[INFO][2018-10-31 21:34:35,249][views.py:199]<QuerySet [{'project': '和君纵达', 'total_time': 4.0}, {'project': '中通速递', 'total_time': 3.0}, {'project': '国金证券', 'total_time': 3.0}]>
+[INFO][2018-10-31 21:34:35,251][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 10.0}]>
+[31/Oct/2018 21:34:35] "GET /work/dashboard HTTP/1.1" 200 7673
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:34:35,661][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:34:35] "GET /favicon.ico HTTP/1.1" 404 2082
+[INFO][2018-10-31 21:35:15,952][views.py:199]<QuerySet [{'project': '和君纵达', 'total_time': 4.0}, {'project': '中通速递', 'total_time': 3.0}, {'project': '国金证券', 'total_time': 3.0}]>
+[INFO][2018-10-31 21:35:15,954][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 10.0}]>
+[31/Oct/2018 21:35:15] "GET /work/dashboard HTTP/1.1" 200 7736
+[31/Oct/2018 21:35:16] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:16] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:16] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:16] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:16] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:16] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:16] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:16] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:16] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:16] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:16] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:16] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:16] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:16] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:16] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:16] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:16] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:16] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:16] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 21:35:16] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:35:16,343][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:35:16] "GET /favicon.ico HTTP/1.1" 404 2082
+[INFO][2018-10-31 21:35:23,822][views.py:199]<QuerySet [{'project': '和君纵达', 'total_time': 4.0}, {'project': '中通速递', 'total_time': 3.0}, {'project': '国金证券', 'total_time': 3.0}]>
+[INFO][2018-10-31 21:35:23,824][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 10.0}]>
+[31/Oct/2018 21:35:23] "GET /work/dashboard HTTP/1.1" 200 7736
+[31/Oct/2018 21:35:23] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:23] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:23] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:23] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:23] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:23] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:23] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:23] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:23] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:23] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:23] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:23] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:23] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:23] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:23] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:23] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:23] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:24] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:24] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 21:35:24] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:35:24,256][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:35:24] "GET /favicon.ico HTTP/1.1" 404 2082
+[INFO][2018-10-31 21:35:39,246][views.py:199]<QuerySet [{'project': '和君纵达', 'total_time': 4.0}, {'project': '中通速递', 'total_time': 3.0}, {'project': '国金证券', 'total_time': 3.0}]>
+[INFO][2018-10-31 21:35:39,248][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 10.0}]>
+[31/Oct/2018 21:35:39] "GET /work/dashboard HTTP/1.1" 200 7727
+[31/Oct/2018 21:35:39] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:39] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:39] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:39] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:39] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:39] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:39] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:39] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:39] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:39] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:39] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:39] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:39] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:39] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:39] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:39] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:39] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:39] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:39] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 21:35:39] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:35:39,656][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:35:39] "GET /favicon.ico HTTP/1.1" 404 2082
+[INFO][2018-10-31 21:35:52,063][views.py:199]<QuerySet [{'project': '和君纵达', 'total_time': 4.0}, {'project': '中通速递', 'total_time': 3.0}, {'project': '国金证券', 'total_time': 3.0}]>
+[INFO][2018-10-31 21:35:52,065][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 10.0}]>
+[31/Oct/2018 21:35:52] "GET /work/dashboard HTTP/1.1" 200 7746
+[31/Oct/2018 21:35:52] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:52] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:52] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:52] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:52] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:52] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:52] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:52] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:52] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:52] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:52] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:52] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:52] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:52] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:52] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:52] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:52] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:52] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 21:35:52] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:52] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:35:52,493][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:35:52] "GET /favicon.ico HTTP/1.1" 404 2082
+[INFO][2018-10-31 21:35:54,667][views.py:199]<QuerySet [{'project': '和君纵达', 'total_time': 4.0}, {'project': '中通速递', 'total_time': 3.0}, {'project': '国金证券', 'total_time': 3.0}]>
+[INFO][2018-10-31 21:35:54,669][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 10.0}]>
+[31/Oct/2018 21:35:54] "GET /work/dashboard HTTP/1.1" 200 7746
+[31/Oct/2018 21:35:54] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:54] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:54] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:54] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:54] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:54] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:35:54] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:54] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:54] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:54] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:54] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:54] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:54] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:54] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:54] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:54] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:54] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:54] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:35:54] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 21:35:54] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:35:55,100][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:35:55] "GET /favicon.ico HTTP/1.1" 404 2082
+[INFO][2018-10-31 21:36:26,561][views.py:199]<QuerySet [{'project': '和君纵达', 'total_time': 4.0}, {'project': '中通速递', 'total_time': 3.0}, {'project': '国金证券', 'total_time': 3.0}]>
+[INFO][2018-10-31 21:36:26,563][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 10.0}]>
+[31/Oct/2018 21:36:26] "GET /work/dashboard HTTP/1.1" 200 7764
+[31/Oct/2018 21:36:26] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:36:26] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:36:26] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:36:26] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:36:26] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:36:26] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:36:26] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:36:26] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:36:26] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:36:26] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:36:26] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:36:26] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:36:26] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:36:26] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:36:26] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:36:26] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:36:26] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:36:26] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:36:26] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 21:36:26] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:36:26,895][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:36:26] "GET /favicon.ico HTTP/1.1" 404 2082
+[INFO][2018-10-31 21:36:55,794][views.py:199]<QuerySet [{'project': '和君纵达', 'total_time': 4.0}, {'project': '中通速递', 'total_time': 3.0}, {'project': '国金证券', 'total_time': 3.0}]>
+[INFO][2018-10-31 21:36:55,796][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 10.0}]>
+[31/Oct/2018 21:36:55] "GET /work/dashboard HTTP/1.1" 200 7741
+[31/Oct/2018 21:36:55] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:36:55] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:36:55] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:36:55] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:36:55] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:36:55] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:36:55] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:36:55] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:36:55] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:36:55] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:36:55] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:36:55] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:36:55] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:36:55] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:36:55] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:36:55] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:36:55] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:36:55] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:36:55] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 21:36:56] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:36:56,168][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:36:56] "GET /favicon.ico HTTP/1.1" 404 2082
+[INFO][2018-10-31 21:37:23,003][views.py:199]<QuerySet [{'project': '和君纵达', 'total_time': 4.0}, {'project': '中通速递', 'total_time': 3.0}, {'project': '国金证券', 'total_time': 3.0}]>
+[INFO][2018-10-31 21:37:23,005][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 10.0}]>
+[31/Oct/2018 21:37:23] "GET /work/dashboard HTTP/1.1" 200 7761
+[31/Oct/2018 21:37:23] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:37:23] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:37:23] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:37:23] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:37:23] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:37:23] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:37:23] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:37:23] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:37:23] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:37:23] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:37:23] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:37:23] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:37:23] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:37:23] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:37:23] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:37:23] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:37:23] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:37:23] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:37:23] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 21:37:23] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:37:23,362][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:37:23] "GET /favicon.ico HTTP/1.1" 404 2082
+[INFO][2018-10-31 21:37:43,376][views.py:199]<QuerySet [{'project': '和君纵达', 'total_time': 4.0}, {'project': '中通速递', 'total_time': 3.0}, {'project': '国金证券', 'total_time': 3.0}]>
+[INFO][2018-10-31 21:37:43,378][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 10.0}]>
+[31/Oct/2018 21:37:43] "GET /work/dashboard HTTP/1.1" 200 7762
+[31/Oct/2018 21:37:43] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:37:43] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:37:43] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:37:43] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:37:43] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:37:43] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:37:43] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:37:43] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:37:43] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:37:43] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:37:43] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:37:43] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:37:43] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:37:43] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:37:43] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:37:43] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:37:43] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:37:43] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 21:37:43] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:37:43] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:37:43,774][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:37:43] "GET /favicon.ico HTTP/1.1" 404 2082
+[INFO][2018-10-31 21:38:01,839][views.py:199]<QuerySet [{'project': '和君纵达', 'total_time': 4.0}, {'project': '中通速递', 'total_time': 3.0}, {'project': '国金证券', 'total_time': 3.0}]>
+[INFO][2018-10-31 21:38:01,841][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 10.0}]>
+[31/Oct/2018 21:38:01] "GET /work/dashboard HTTP/1.1" 200 7780
+[31/Oct/2018 21:38:01] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:38:01] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:38:01] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:38:01] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:38:01] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:38:01] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:38:01] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:01] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:01] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:01] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:01] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:01] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:01] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:01] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:02] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:02] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:02] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:02] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:02] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 21:38:02] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:38:02,242][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:38:02] "GET /favicon.ico HTTP/1.1" 404 2082
+[INFO][2018-10-31 21:38:07,474][views.py:199]<QuerySet [{'project': '和君纵达', 'total_time': 4.0}, {'project': '中通速递', 'total_time': 3.0}, {'project': '国金证券', 'total_time': 3.0}]>
+[INFO][2018-10-31 21:38:07,476][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 10.0}]>
+[31/Oct/2018 21:38:07] "GET /work/dashboard HTTP/1.1" 200 7809
+[31/Oct/2018 21:38:07] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:38:07] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:38:07] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:38:07] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:38:07] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:38:07] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:38:07] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:07] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:07] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:07] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:07] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:07] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:07] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:07] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:07] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:07] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:07] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:07] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:07] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 21:38:07] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:38:07,863][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:38:07] "GET /favicon.ico HTTP/1.1" 404 2082
+[INFO][2018-10-31 21:38:10,363][views.py:199]<QuerySet [{'project': '和君纵达', 'total_time': 4.0}, {'project': '中通速递', 'total_time': 3.0}, {'project': '国金证券', 'total_time': 3.0}]>
+[INFO][2018-10-31 21:38:10,365][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 10.0}]>
+[31/Oct/2018 21:38:10] "GET /work/dashboard HTTP/1.1" 200 7809
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:38:10,681][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:38:10] "GET /favicon.ico HTTP/1.1" 404 2082
+[INFO][2018-10-31 21:38:17,968][views.py:199]<QuerySet [{'project': '和君纵达', 'total_time': 4.0}, {'project': '中通速递', 'total_time': 3.0}, {'project': '国金证券', 'total_time': 3.0}]>
+[INFO][2018-10-31 21:38:17,970][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 10.0}]>
+[31/Oct/2018 21:38:17] "GET /work/dashboard HTTP/1.1" 200 7762
+[31/Oct/2018 21:38:18] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:38:18] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:38:18] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:38:18] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:38:18] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:38:18] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:38:18] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:18] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:18] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:18] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:18] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:18] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:18] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:18] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:18] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:18] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:18] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:18] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 21:38:18] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:38:18] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:38:18,386][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:38:18] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:40:17] "GET /work/dailyReports HTTP/1.1" 200 16180
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:40:17,383][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:40:17] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:50:19] "GET /work/dailyReports HTTP/1.1" 200 16180
+[31/Oct/2018 21:50:19] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:50:19] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:50:19] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:50:19] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:50:19] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:50:19] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:50:19] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:50:19] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:50:19] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:50:19] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:50:19] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:50:19] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:50:19] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:50:19] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:50:19] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:50:19] "GET /static/css/bootstrap.css HTTP/1.1" 200 173442
+[31/Oct/2018 21:50:19] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:50:19] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:50:21] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 21:50:21] "GET /static/css/patterns/header-profile.png HTTP/1.1" 200 5877
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:50:21,920][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:50:21] "GET /favicon.ico HTTP/1.1" 404 2082
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 31, 2018 - 21:20:58
+Django version 2.1.2, using settings 'mysite.settings'
+Starting development server at http://0.0.0.0:63181/
+Quit the server with CONTROL-C.
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>[31/Oct/2018 21:50:24] "GET /work/dailyReports HTTP/1.1" 200 16180
+[31/Oct/2018 21:50:24] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:50:24] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:50:24] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:50:24] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:50:24] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:50:24] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:50:24] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:50:24] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:50:24] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:50:24] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:50:24] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:50:24] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:50:24] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:50:24] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:50:24] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:50:24] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:50:24] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:50:24] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:50:24] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 21:50:24] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:50:24,559][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:50:24] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:55:08] "GET /work/dailyReports HTTP/1.1" 200 16850
+[31/Oct/2018 21:55:08] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:55:08] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:55:08] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:55:08] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:55:08] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:55:08] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:55:08] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:08] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:08] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:08] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:08] "GET /static/css/sweetalert.css HTTP/1.1" 200 18130
+[31/Oct/2018 21:55:08] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:08] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:08] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:08] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:08] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:08] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:08] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:08] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:08] "GET /static/js/sweetalert.min.js HTTP/1.1" 200 16141
+[31/Oct/2018 21:55:08] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 21:55:08] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:55:09,107][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:55:09] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:55:15] "POST /work/dailyReports HTTP/1.1" 302 0
+[31/Oct/2018 21:55:15] "GET /work/dailyReports HTTP/1.1" 200 17278
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:55:16,011][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:55:16] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:55:22] "GET /work/del_dailyReports?id=19 HTTP/1.1" 200 15
+[31/Oct/2018 21:55:22] "GET /work/dailyReports HTTP/1.1" 200 16850
+[31/Oct/2018 21:55:23] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:55:23] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:55:23] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:55:23] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:55:23] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:55:23] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:55:23] "GET /static/css/sweetalert.css HTTP/1.1" 304 0
+[31/Oct/2018 21:55:23] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:23] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:23] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:23] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:23] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:23] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:23] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:23] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:23] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:23] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:23] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:23] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:23] "GET /static/js/sweetalert.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:55:23] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 21:55:23] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:55:23,346][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:55:23] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:58:02] "POST /work/dailyReports HTTP/1.1" 302 0
+[31/Oct/2018 21:58:02] "GET /work/dailyReports HTTP/1.1" 200 16894
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:58:02,813][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:58:02] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 21:58:04] "GET /work/del_dailyReports?id=20 HTTP/1.1" 200 15
+[31/Oct/2018 21:58:04] "GET /work/dailyReports HTTP/1.1" 200 16469
+[31/Oct/2018 21:58:04] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 21:58:04] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 21:58:04] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 21:58:04] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 21:58:04] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 21:58:04] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 21:58:04] "GET /static/css/sweetalert.css HTTP/1.1" 304 0
+[31/Oct/2018 21:58:04] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:58:04] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:58:04] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 21:58:04] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 21:58:04] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 21:58:04] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 21:58:04] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:58:04] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:58:04] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:58:04] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 21:58:04] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 21:58:04] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 21:58:04] "GET /static/js/sweetalert.min.js HTTP/1.1" 304 0
+[31/Oct/2018 21:58:04] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 21:58:04] "GET /static/css/patterns/header-profile.png HTTP/1.1" 200 5877
+Not Found: /favicon.ico
+[WARNING][2018-10-31 21:58:04,577][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 21:58:04] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 22:01:09] "GET /work/dailyReports HTTP/1.1" 200 16467
+[31/Oct/2018 22:01:09] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 22:01:09] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 22:01:09] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 22:01:09] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 22:01:09] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 22:01:09] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 22:01:09] "GET /static/css/sweetalert.css HTTP/1.1" 304 0
+[31/Oct/2018 22:01:09] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:01:09] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:01:09] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 22:01:09] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 22:01:09] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 22:01:09] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 22:01:09] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:01:09] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:01:09] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:01:09] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 22:01:09] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 22:01:09] "GET /static/js/sweetalert.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:01:09] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 22:01:09] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 22:01:09] "GET /static/css/patterns/header-profile.png HTTP/1.1" 200 5877
+Not Found: /favicon.ico
+[WARNING][2018-10-31 22:01:10,062][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 22:01:10] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 22:02:02] "POST /work/dailyReports HTTP/1.1" 302 0
+[31/Oct/2018 22:02:02] "GET /work/dailyReports HTTP/1.1" 200 16847
+Not Found: /favicon.ico
+[WARNING][2018-10-31 22:02:02,297][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 22:02:02] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 22:02:03] "GET /work/del_dailyReports?id=21 HTTP/1.1" 200 15
+[31/Oct/2018 22:02:03] "GET /work/dailyReports HTTP/1.1" 200 16422
+[31/Oct/2018 22:02:04] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 22:02:04] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 22:02:04] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 22:02:04] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 22:02:04] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 22:02:04] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 22:02:04] "GET /static/css/sweetalert.css HTTP/1.1" 304 0
+[31/Oct/2018 22:02:04] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:02:04] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:02:04] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 22:02:04] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 22:02:04] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 22:02:04] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 22:02:04] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:02:04] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:02:04] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 22:02:04] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:02:04] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 22:02:04] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 22:02:04] "GET /static/js/sweetalert.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:02:04] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 22:02:04] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 22:02:04,392][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 22:02:04] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 22:05:11] "POST /work/dailyReports HTTP/1.1" 302 0
+[31/Oct/2018 22:05:11] "GET /work/dailyReports HTTP/1.1" 200 16847
+Not Found: /favicon.ico
+[WARNING][2018-10-31 22:05:12,157][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 22:05:12] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 22:05:14] "GET /work/del_dailyReports?id=22 HTTP/1.1" 200 15
+[31/Oct/2018 22:05:14] "GET /work/dailyReports HTTP/1.1" 200 16422
+[31/Oct/2018 22:05:14] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 22:05:14] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 22:05:14] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 22:05:14] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 22:05:14] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 22:05:14] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 22:05:14] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:14] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:14] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:14] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:14] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:14] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:14] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:14] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:14] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:14] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:14] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:14] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:14] "GET /static/js/sweetalert.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:14] "GET /static/css/sweetalert.css HTTP/1.1" 200 18130
+[31/Oct/2018 22:05:16] "GET /static/img/profile_small.jpg HTTP/1.1" 200 11988
+[31/Oct/2018 22:05:17] "GET /static/css/patterns/header-profile.png HTTP/1.1" 200 5877
+Not Found: /favicon.ico
+[WARNING][2018-10-31 22:05:17,226][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 22:05:17] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 22:05:24] "POST /work/dailyReports HTTP/1.1" 302 0
+[31/Oct/2018 22:05:24] "GET /work/dailyReports HTTP/1.1" 200 16853
+Not Found: /favicon.ico
+[WARNING][2018-10-31 22:05:25,114][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 22:05:25] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 22:05:27] "GET /work/del_dailyReports?id=23 HTTP/1.1" 200 15
+
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 19, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '车享网', 'working_time': 22.0, 'content': 'q', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 20, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '车享网', 'working_time': 2.0, 'content': '1', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 21, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '车享网', 'working_time': 2.0, 'content': 's', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 22, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '车享网', 'working_time': 2.0, 'content': '2', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 23, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '车享网', 'working_time': 222.0, 'content': '2', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>[31/Oct/2018 22:05:27] "GET /work/dailyReports HTTP/1.1" 200 16422
+[31/Oct/2018 22:05:27] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 22:05:27] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 22:05:27] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 22:05:27] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 22:05:27] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 22:05:27] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 22:05:27] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:27] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:27] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:27] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:27] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:27] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:27] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:27] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:27] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:27] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:27] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:27] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:27] "GET /static/js/sweetalert.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:27] "GET /static/css/sweetalert.css HTTP/1.1" 200 18130
+[31/Oct/2018 22:05:27] "GET /static/img/profile_small.jpg HTTP/1.1" 200 11988
+[31/Oct/2018 22:05:27] "GET /static/css/patterns/header-profile.png HTTP/1.1" 200 5877
+Not Found: /favicon.ico
+[WARNING][2018-10-31 22:05:27,567][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 22:05:27] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 22:05:57] "POST /work/dailyReports HTTP/1.1" 302 0
+[31/Oct/2018 22:05:57] "GET /work/dailyReports HTTP/1.1" 200 16789
+Not Found: /favicon.ico
+[WARNING][2018-10-31 22:05:57,725][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 22:05:57] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 22:05:59] "GET /work/del_dailyReports?id=24 HTTP/1.1" 200 15
+[31/Oct/2018 22:05:59] "GET /work/dailyReports HTTP/1.1" 200 16364
+[31/Oct/2018 22:05:59] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 22:05:59] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 22:05:59] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 22:05:59] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 22:05:59] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 22:05:59] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 22:05:59] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:59] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:59] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:59] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:59] "GET /static/css/sweetalert.css HTTP/1.1" 200 18130
+[31/Oct/2018 22:05:59] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:59] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:59] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:59] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:59] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:59] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:59] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:59] "GET /static/js/sweetalert.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:59] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 22:05:59] "GET /static/img/profile_small.jpg HTTP/1.1" 200 11988
+[31/Oct/2018 22:05:59] "GET /static/css/patterns/header-profile.png HTTP/1.1" 200 5877
+Not Found: /favicon.ico
+[WARNING][2018-10-31 22:05:59,962][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 22:05:59] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 22:07:58] "GET /work/dailyReports HTTP/1.1" 200 16364
+[31/Oct/2018 22:07:58] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 22:07:58] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 22:07:58] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 22:07:58] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 22:07:58] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 22:07:58] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 22:07:58] "GET /static/css/sweetalert.css HTTP/1.1" 304 0
+[31/Oct/2018 22:07:58] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:07:58] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:07:58] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 22:07:58] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 22:07:58] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 22:07:58] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 22:07:58] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:07:58] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:07:58] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:07:58] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 22:07:58] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 22:07:58] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 22:07:58] "GET /static/js/sweetalert.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:07:58] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 22:07:58] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 22:07:58,583][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 22:07:58] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 22:10:14] "GET /work/dailyReports HTTP/1.1" 200 17106
+[31/Oct/2018 22:10:14] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 22:10:14] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 22:10:14] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 22:10:14] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 22:10:14] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 22:10:14] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 22:10:14] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:14] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:14] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:14] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:14] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:14] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:14] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:14] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:14] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:14] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:14] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:14] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:14] "GET /static/js/sweetalert.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:14] "GET /static/css/sweetalert.css HTTP/1.1" 200 18130
+[31/Oct/2018 22:10:14] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 22:10:14] "GET /static/css/patterns/header-profile.png HTTP/1.1" 200 5877
+Not Found: /favicon.ico
+[WARNING][2018-10-31 22:10:14,844][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 22:10:14] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 22:10:39] "GET /work/dailyReports HTTP/1.1" 200 17106
+[31/Oct/2018 22:10:40] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 22:10:40] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 22:10:40] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 22:10:40] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 22:10:40] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 22:10:40] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 22:10:40] "GET /static/css/sweetalert.css HTTP/1.1" 304 0
+[31/Oct/2018 22:10:40] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:40] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:40] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:40] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:40] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:40] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:40] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:40] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:40] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:40] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:40] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:40] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:40] "GET /static/js/sweetalert.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:10:40] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 22:10:40] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 22:10:40,499][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 22:10:40] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 22:25:55] "GET /work/dailyReports HTTP/1.1" 200 17363
+[31/Oct/2018 22:25:55] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 22:25:55] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 22:25:55] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 22:25:55] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 22:25:55] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 22:25:55] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 22:25:55] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:25:55] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:25:55] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 22:25:55] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 22:25:55] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 22:25:55] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 22:25:55] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:25:55] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:25:55] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:25:55] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 22:25:55] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 22:25:55] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 22:25:55] "GET /static/js/sweetalert.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:25:55] "GET /static/css/sweetalert.css HTTP/1.1" 200 18130
+[31/Oct/2018 22:25:57] "GET /static/img/profile_small.jpg HTTP/1.1" 200 11988
+[31/Oct/2018 22:25:57] "GET /static/css/patterns/header-profile.png HTTP/1.1" 200 5877
+Not Found: /favicon.ico
+[WARNING][2018-10-31 22:25:57,937][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 22:25:57] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 22:26:02] "POST /work/dailyReports HTTP/1.1" 302 0
+[31/Oct/2018 22:26:02] "GET /work/dailyReports HTTP/1.1" 200 17788
+Not Found: /favicon.ico
+[WARNING][2018-10-31 22:26:02,374][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 22:26:02] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 22:26:03] "GET /work/del_dailyReports?id=25 HTTP/1.1" 200 15
+[31/Oct/2018 22:26:03] "GET /work/dailyReports HTTP/1.1" 200 17363
+[31/Oct/2018 22:26:04] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 22:26:04] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 22:26:04] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 22:26:04] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 22:26:04] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 22:26:04] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 22:26:04] "GET /static/css/sweetalert.css HTTP/1.1" 304 0
+[31/Oct/2018 22:26:04] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:26:04] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:26:04] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 22:26:04] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 22:26:04] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 22:26:04] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 22:26:04] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:26:04] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:26:04] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:26:04] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 22:26:04] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 22:26:04] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 22:26:04] "GET /static/js/sweetalert.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:26:04] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 22:26:04] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 22:26:04,285][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 22:26:04] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 22:26:59] "POST /work/dailyReports HTTP/1.1" 302 0
+[31/Oct/2018 22:26:59] "GET /work/dailyReports HTTP/1.1" 200 16790
+Not Found: /favicon.ico
+[WARNING][2018-10-31 22:26:59,545][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 22:26:59] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 22:27:02] "GET /work/del_dailyReports?id=26 HTTP/1.1" 200 15
+[31/Oct/2018 22:27:02] "GET /work/dailyReports HTTP/1.1" 200 16365
+[31/Oct/2018 22:27:02] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 22:27:02] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 22:27:02] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 22:27:02] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 22:27:02] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 22:27:02] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 22:27:02] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:02] "GET /static/css/sweetalert.css HTTP/1.1" 304 0
+[31/Oct/2018 22:27:02] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:02] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:02] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:02] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:02] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:02] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:02] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:02] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:02] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:02] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:02] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:02] "GET /static/js/sweetalert.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:02] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 22:27:02] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 22:27:02,629][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 22:27:02] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 22:27:34] "GET /work/dailyReports HTTP/1.1" 200 16365
+[31/Oct/2018 22:27:34] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 22:27:34] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 22:27:34] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 22:27:34] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 22:27:34] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 22:27:34] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 22:27:34] "GET /static/css/sweetalert.css HTTP/1.1" 304 0
+[31/Oct/2018 22:27:34] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:34] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:34] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:34] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:34] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:34] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:34] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:34] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:34] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:34] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:34] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:34] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:34] "GET /static/js/sweetalert.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:34] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 22:27:34] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 22:27:34,601][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 22:27:34] "GET /favicon.ico HTTP/1.1" 404 2082
+
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 24, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '车享网', 'working_time': 2.0, 'content': '2', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 25, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '车享网', 'working_time': 2.0, 'content': '2', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 26, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '车享网', 'working_time': 2.0, 'content': 'w', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 10, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '和君纵达', 'working_time': 4.0, 'content': '测试1000小时录音跑识别耗费时间', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 11, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '中通速递', 'working_time': 3.0, 'content': '测试文本识别服务，更换添加文本识别授权', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 12, 'date': datetime.date(2018, 10, 31), 'week': 2, 'project': '国金证券', 'working_time': 3.0, 'content': '测试抽音，申请开通端口，明天上线', 'creator': 'zhangzihao@pachiratech.com'}]>[31/Oct/2018 22:27:40] "GET /work/dailyReports HTTP/1.1" 200 16365
+[31/Oct/2018 22:27:40] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 22:27:40] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 22:27:40] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 22:27:40] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 22:27:40] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 22:27:40] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 22:27:40] "GET /static/css/sweetalert.css HTTP/1.1" 304 0
+[31/Oct/2018 22:27:40] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:40] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:40] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:40] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:40] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:40] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:40] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:40] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:40] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:40] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:40] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:40] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:40] "GET /static/js/sweetalert.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:27:40] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 22:27:40] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 22:27:41,041][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 22:27:41] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 22:49:35] "GET /work/dailyReports HTTP/1.1" 200 26727
+[31/Oct/2018 22:49:35] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 22:49:35] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 22:49:35] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 22:49:35] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 22:49:35] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 22:49:35] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 22:49:35] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 22:49:35] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:49:35] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:49:35] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 22:49:35] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 22:49:35] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 22:49:35] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:49:35] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:49:35] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:49:35] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 22:49:35] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 22:49:35] "GET /static/js/sweetalert.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:49:35] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 22:49:35] "GET /static/css/sweetalert.css HTTP/1.1" 200 18130
+Not Found: /work/img/p1.jpg
+[WARNING][2018-10-31 22:49:37,534][log.py:228]Not Found: /work/img/p1.jpg
+Not Found: /work/img/p2.jpg
+[31/Oct/2018 22:49:37] "GET /work/img/p1.jpg HTTP/1.1" 404 3413
+[WARNING][2018-10-31 22:49:37,537][log.py:228]Not Found: /work/img/p2.jpg
+[31/Oct/2018 22:49:37] "GET /work/img/p2.jpg HTTP/1.1" 404 3413
+[31/Oct/2018 22:49:37] "GET /static/img/profile_small.jpg HTTP/1.1" 200 11988
+[31/Oct/2018 22:49:37] "GET /static/css/patterns/header-profile.png HTTP/1.1" 200 5877
+Not Found: /favicon.ico
+[WARNING][2018-10-31 22:49:37,715][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 22:49:37] "GET /favicon.ico HTTP/1.1" 404 2082
+Not Found: /work/mailbox.html
+[WARNING][2018-10-31 22:49:43,999][log.py:228]Not Found: /work/mailbox.html
+[31/Oct/2018 22:49:43] "GET /work/mailbox.html HTTP/1.1" 404 3419
+Not Found: /favicon.ico
+[WARNING][2018-10-31 22:49:44,105][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 22:49:44] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 22:50:26] "GET /work/dailyReports HTTP/1.1" 200 26729
+[31/Oct/2018 22:50:26] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 22:50:26] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 22:50:26] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 22:50:26] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 22:50:26] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 22:50:26] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 22:50:26] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:50:26] "GET /static/css/sweetalert.css HTTP/1.1" 304 0
+[31/Oct/2018 22:50:26] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:50:26] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 22:50:26] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 22:50:26] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 22:50:26] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 22:50:26] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:50:26] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:50:26] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 22:50:26] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 22:50:26] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 22:50:26] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 22:50:26] "GET /static/js/sweetalert.min.js HTTP/1.1" 304 0
+Not Found: /work/img/p1.jpg
+[WARNING][2018-10-31 22:50:26,284][log.py:228]Not Found: /work/img/p1.jpg
+[31/Oct/2018 22:50:26] "GET /work/img/p1.jpg HTTP/1.1" 404 3413
+Not Found: /work/img/p2.jpg
+[WARNING][2018-10-31 22:50:26,295][log.py:228]Not Found: /work/img/p2.jpg
+[31/Oct/2018 22:50:26] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 22:50:26] "GET /work/img/p2.jpg HTTP/1.1" 404 3413
+[31/Oct/2018 22:50:26] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 22:50:26,530][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 22:50:26] "GET /favicon.ico HTTP/1.1" 404 2082
+[31/Oct/2018 23:07:20] "GET /work/dailyReports HTTP/1.1" 200 26729
+[31/Oct/2018 23:07:20] "GET /static/css/animate.css HTTP/1.1" 304 0
+[31/Oct/2018 23:07:20] "GET /static/css/font-awesome.css HTTP/1.1" 304 0
+[31/Oct/2018 23:07:20] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[31/Oct/2018 23:07:20] "GET /static/css/bootstrap-select.css HTTP/1.1" 304 0
+[31/Oct/2018 23:07:20] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2018 23:07:20] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 304 0
+[31/Oct/2018 23:07:20] "GET /static/css/sweetalert.css HTTP/1.1" 304 0
+[31/Oct/2018 23:07:20] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 304 0
+[31/Oct/2018 23:07:20] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[31/Oct/2018 23:07:20] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 304 0
+[31/Oct/2018 23:07:20] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[31/Oct/2018 23:07:20] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[31/Oct/2018 23:07:20] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 304 0
+[31/Oct/2018 23:07:20] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[31/Oct/2018 23:07:20] "GET /static/js/pace.min.js HTTP/1.1" 304 0
+[31/Oct/2018 23:07:20] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[31/Oct/2018 23:07:20] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[31/Oct/2018 23:07:20] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 304 0
+[31/Oct/2018 23:07:20] "GET /static/js/bootstrap-select.js HTTP/1.1" 304 0
+[31/Oct/2018 23:07:20] "GET /static/js/sweetalert.min.js HTTP/1.1" 304 0
+Not Found: /work/img/p1.jpg
+Not Found: /work/img/p2.jpg
+[WARNING][2018-10-31 23:07:21,295][log.py:228]Not Found: /work/img/p1.jpg
+[WARNING][2018-10-31 23:07:21,298][log.py:228]Not Found: /work/img/p2.jpg
+[31/Oct/2018 23:07:21] "GET /static/img/profile_small.jpg HTTP/1.1" 304 0
+[31/Oct/2018 23:07:21] "GET /work/img/p2.jpg HTTP/1.1" 404 3413
+[31/Oct/2018 23:07:21] "GET /work/img/p1.jpg HTTP/1.1" 404 3413
+[31/Oct/2018 23:07:21] "GET /static/css/patterns/header-profile.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[WARNING][2018-10-31 23:07:21,443][log.py:228]Not Found: /favicon.ico
+[31/Oct/2018 23:07:21] "GET /favicon.ico HTTP/1.1" 404 2082
+Not Found: /
+[WARNING][2018-11-01 07:09:12,761][log.py:228]Not Found: /
+[01/Nov/2018 07:09:12] "GET / HTTP/1.1" 404 2031
+Not Found: /favicon.ico
+[WARNING][2018-11-01 07:09:13,115][log.py:228]Not Found: /favicon.ico
+[01/Nov/2018 07:09:13] "GET /favicon.ico HTTP/1.1" 404 2082
+[01/Nov/2018 07:09:26] "GET /work/login HTTP/1.1" 200 1653
+[01/Nov/2018 07:09:27] "GET /static/css/font-awesome.css HTTP/1.1" 200 37414
+[01/Nov/2018 07:09:27] "GET /static/js/popper.min.js HTTP/1.1" 200 19187
+[01/Nov/2018 07:09:27] "GET /static/css/animate.css HTTP/1.1" 200 66203
+[01/Nov/2018 07:09:27] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 200 86709
+[01/Nov/2018 07:09:28] "GET /static/css/bootstrap.css HTTP/1.1" 200 173442
+[01/Nov/2018 07:09:28] "GET /static/css/style.css HTTP/1.1" 200 197782
+[01/Nov/2018 07:09:29] "GET /static/js/bootstrap.js HTTP/1.1" 200 122441
+[01/Nov/2018 07:09:42] "GET /work/login HTTP/1.1" 200 1653
+[01/Nov/2018 07:09:45] "GET /work/register HTTP/1.1" 200 2092
+[01/Nov/2018 07:09:46] "GET /static/css/custom.css HTTP/1.1" 200 1398
+[01/Nov/2018 07:09:51] "GET /static/js/icheck.min.js HTTP/1.1" 200 4987
+[01/Nov/2018 07:09:53] "GET /work/login HTTP/1.1" 200 1653
+[01/Nov/2018 07:10:18] "POST /work/login HTTP/1.1" 302 0
+[01/Nov/2018 07:10:19] "GET /work/dailyReports HTTP/1.1" 200 26078
+[01/Nov/2018 07:10:19] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 200 5222
+[01/Nov/2018 07:10:19] "GET /static/css/bootstrap-select.css HTTP/1.1" 200 11312
+[01/Nov/2018 07:10:19] "GET /static/css/sweetalert.css HTTP/1.1" 200 18130
+[01/Nov/2018 07:10:19] "GET /static/js/jquery.metisMenu.js HTTP/1.1" 200 13090
+[01/Nov/2018 07:10:19] "GET /static/js/jquery.slimscroll.js HTTP/1.1" 200 13657
+[01/Nov/2018 07:10:19] "GET /static/js/pace.min.js HTTP/1.1" 200 12507
+[01/Nov/2018 07:10:19] "GET /static/js/inspinia.js HTTP/1.1" 200 8916
+[01/Nov/2018 07:10:19] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 200 2085
+[01/Nov/2018 07:10:19] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+[01/Nov/2018 07:10:19] "GET /static/js/bootstrao-selector-defaults-zh_CN.js HTTP/1.1" 200 511
+[01/Nov/2018 07:10:19] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 82411
+[01/Nov/2018 07:10:19] "GET /static/img/profile_small.jpg HTTP/1.1" 200 11988
+[01/Nov/2018 07:10:19] "GET /static/js/sweetalert.min.js HTTP/1.1" 200 16141
+Not Found: /work/img/p1.jpg
+[WARNING][2018-11-01 07:10:19,890][log.py:228]Not Found: /work/img/p1.jpg
+[01/Nov/2018 07:10:19] "GET /work/img/p1.jpg HTTP/1.1" 404 3413
+Not Found: /work/img/p2.jpg
+[WARNING][2018-11-01 07:10:19,928][log.py:228]Not Found: /work/img/p2.jpg
+[01/Nov/2018 07:10:19] "GET /work/img/p2.jpg HTTP/1.1" 404 3413
+[01/Nov/2018 07:10:19] "GET /static/js/bootstrap-select.js HTTP/1.1" 200 97189
+[01/Nov/2018 07:10:21] "GET /static/js/echarts.js HTTP/1.1" 200 1188789
+[01/Nov/2018 07:10:22] "GET /static/css/dataTables/chineses.json HTTP/1.1" 200 737
+[01/Nov/2018 07:10:49] "GET /static/css/patterns/header-profile.png HTTP/1.1" 200 5877
+[INFO][2018-11-01 07:11:23,835][views.py:199]<QuerySet []>
+[INFO][2018-11-01 07:11:23,837][views.py:204]<QuerySet []>
+[01/Nov/2018 07:11:23] "GET /work/dashboard HTTP/1.1" 200 7294
+[01/Nov/2018 07:11:43] "GET /work/projects HTTP/1.1" 200 21088
+[INFO][2018-11-01 07:11:57,886][views.py:199]<QuerySet []>
+[INFO][2018-11-01 07:11:57,887][views.py:204]<QuerySet []>
+[01/Nov/2018 07:11:57] "GET /work/dashboard HTTP/1.1" 200 7294
+[INFO][2018-11-01 07:12:02,132][views.py:199]<QuerySet []>
+[INFO][2018-11-01 07:12:02,134][views.py:204]<QuerySet []>
+[01/Nov/2018 07:12:02] "GET /work/dashboard HTTP/1.1" 200 7294
+[01/Nov/2018 07:12:14] "GET /work/dailyReports HTTP/1.1" 200 26078
+Not Found: /work/img/p1.jpg
+[WARNING][2018-11-01 07:12:14,755][log.py:228]Not Found: /work/img/p1.jpg
+Not Found: /work/img/p2.jpg
+[WARNING][2018-11-01 07:12:14,758][log.py:228]Not Found: /work/img/p2.jpg
+[01/Nov/2018 07:12:14] "GET /work/img/p1.jpg HTTP/1.1" 404 3413
+[01/Nov/2018 07:12:14] "GET /work/img/p2.jpg HTTP/1.1" 404 3413
+[01/Nov/2018 07:12:19] "GET /work/projects HTTP/1.1" 200 21088
+[01/Nov/2018 07:12:28] "GET /work/dailyReports HTTP/1.1" 200 26078
+Not Found: /work/img/p1.jpg
+[WARNING][2018-11-01 07:12:28,699][log.py:228]Not Found: /work/img/p1.jpg
+Not Found: /work/img/p2.jpg
+[WARNING][2018-11-01 07:12:28,701][log.py:228]Not Found: /work/img/p2.jpg
+[01/Nov/2018 07:12:28] "GET /work/img/p1.jpg HTTP/1.1" 404 3413
+[01/Nov/2018 07:12:28] "GET /work/img/p2.jpg HTTP/1.1" 404 3413
+[01/Nov/2018 07:12:40] "GET /work/projects HTTP/1.1" 200 21088
+[INFO][2018-11-01 07:12:42,292][views.py:199]<QuerySet []>
+[INFO][2018-11-01 07:12:42,294][views.py:204]<QuerySet []>
+[01/Nov/2018 07:12:42] "GET /work/dashboard HTTP/1.1" 200 7294
+[01/Nov/2018 09:38:46] "GET /work/login HTTP/1.1" 200 1653
+Not Found: /favicon.ico
+[WARNING][2018-11-01 09:38:47,352][log.py:228]Not Found: /favicon.ico
+[01/Nov/2018 09:38:47] "GET /favicon.ico HTTP/1.1" 404 2082
+[01/Nov/2018 09:38:49] "POST /work/login HTTP/1.1" 302 0
+[01/Nov/2018 09:38:49] "GET /work/dailyReports HTTP/1.1" 200 26078
+Not Found: /work/img/p1.jpg
+Not Found: /work/img/p2.jpg
+[WARNING][2018-11-01 09:38:49,674][log.py:228]Not Found: /work/img/p1.jpg
+[WARNING][2018-11-01 09:38:49,676][log.py:228]Not Found: /work/img/p2.jpg
+[01/Nov/2018 09:38:49] "GET /work/img/p2.jpg HTTP/1.1" 404 3413
+[01/Nov/2018 09:38:49] "GET /work/img/p1.jpg HTTP/1.1" 404 3413
+[01/Nov/2018 09:38:56] "GET /work/login HTTP/1.1" 200 1653
+[01/Nov/2018 09:39:09] "GET /work/projects HTTP/1.1" 200 21088
+Not Found: /favicon.ico
+[WARNING][2018-11-01 10:23:29,447][log.py:228]Not Found: /favicon.ico
+[01/Nov/2018 10:23:29] "GET /favicon.ico HTTP/1.1" 404 2082
+[01/Nov/2018 10:23:41] "GET /work/projects HTTP/1.1" 200 21088
+[01/Nov/2018 10:27:29] "GET /work/projects HTTP/1.1" 200 21088
+[01/Nov/2018 10:28:12] "GET /work/login?nsukey=71Kju8lCJ0nvZq4Skxo3wvXyqNrT9ZVobQj5B02B18LSPPrjKtVhwjwC4QLUdLuaY9t8kxvcobugQdnQObWBxaxeqbhyHeMLyvolJMlFhxpgdJyAgvDsepsXrmYwZiRlpsFPeemhEg5A5J1jM2BfSZekdPoK1Q9VR5ktMTJX2Bj16hDisCEIO2lSq4HbF2B5c7KjC83P7JCLfoKE4pqVfemCVg3D3D HTTP/1.1" 200 1653
+[01/Nov/2018 10:28:12] "GET /static/css/font-awesome.css HTTP/1.1" 200 37414
+[01/Nov/2018 10:28:12] "GET /static/js/popper.min.js HTTP/1.1" 200 19187
+[01/Nov/2018 10:28:12] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 200 86709
+[01/Nov/2018 10:28:12] "GET /static/css/animate.css HTTP/1.1" 200 66203
+[01/Nov/2018 10:28:12] "GET /static/css/style.css HTTP/1.1" 200 197782
+[01/Nov/2018 10:28:12] "GET /static/css/bootstrap.css HTTP/1.1" 200 173442
+[01/Nov/2018 10:28:12] "GET /static/js/bootstrap.js HTTP/1.1" 200 122441
+[01/Nov/2018 10:28:13] "GET /static/css/animate.css HTTP/1.1" 200 66203
+[01/Nov/2018 10:28:13] "GET /static/css/font-awesome.css HTTP/1.1" 200 37414
+[01/Nov/2018 10:28:15] "GET /static/css/bootstrap.css HTTP/1.1" 200 173442
+[01/Nov/2018 10:28:15] "GET /static/css/style.css HTTP/1.1" 200 197782
+[01/Nov/2018 10:28:28] "GET /work/login?nsukey=TWKLZMhKzgkcILeFthxBXXR22pXB2BZ5qRQka7FB1SeJYbz3b2ntG79RVYPVGyu0AWiA1vuiyrl8W6EEflJ3tRh7KXhPFQlBOUgyycow5JybPVTLf4KPEiO5BR94cx4igQb9c0QPMbGmZ69HMAlwonFSQxz56dMjLUq9nlUOx5UTv2t4w9AdH2QAl4CycRV2BfzWOUK0YnHbpm0sLFtFmfag3D3D HTTP/1.1" 200 1653
+[01/Nov/2018 10:28:52] "GET /work/projects HTTP/1.1" 200 21088
+[01/Nov/2018 10:28:55] "GET /work/dailyReports HTTP/1.1" 200 26078
+Not Found: /work/img/p1.jpg
+[WARNING][2018-11-01 10:28:55,823][log.py:228]Not Found: /work/img/p1.jpg
+Not Found: /work/img/p2.jpg
+[WARNING][2018-11-01 10:28:55,825][log.py:228]Not Found: /work/img/p2.jpg
+[01/Nov/2018 10:28:55] "GET /work/img/p1.jpg HTTP/1.1" 404 3413
+[01/Nov/2018 10:28:55] "GET /work/img/p2.jpg HTTP/1.1" 404 3413
+[01/Nov/2018 10:29:09] "GET /work/login HTTP/1.1" 200 1653
+[01/Nov/2018 10:29:10] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 200 86709
+[01/Nov/2018 10:29:11] "GET /static/js/popper.min.js HTTP/1.1" 200 19187
+[01/Nov/2018 10:29:11] "GET /static/js/bootstrap.js HTTP/1.1" 200 122441
+[01/Nov/2018 10:29:11] "GET /work/login?nsukey=71Kju8lCJ0nvZq4Skxo3wvXyqNrT9ZVobQj5B0%2B18LSPPrjKtVhwjwC4QLUdLuaY9t8kxvcobugQdnQObWBxaxeqbhyHeMLyvolJMlFhxpgdJyAgvDsepsXrmYwZiRlpsFPeemhEg5A5J1jM%2BfSZekdPoK1Q9VR5ktMTJX%2Bj16hDisCEIO2lSq4HbF%2B5c7KjC83P7JCLfoKE4pqVfemCVg%3D%3D HTTP/1.1" 200 1653
+[01/Nov/2018 10:29:12] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 200 86709
+[01/Nov/2018 10:29:13] "GET /static/js/popper.min.js HTTP/1.1" 200 19187
+[01/Nov/2018 10:29:14] "GET /static/js/bootstrap.js HTTP/1.1" 200 122441
+[01/Nov/2018 10:29:27] "GET /work/login?nsukey=TWKLZMhKzgkcILeFthxBXXR22pXB%2BZ5qRQka7FB1SeJYbz3b2ntG79RVYPVGyu0AWiA1vuiyrl8W6EEflJ3tRh7KXhPFQlBOUgyycow5JybPVTLf4KPEiO5BR94cx4igQb9c0QPMbGmZ69HMAlwonFSQxz56dMjLUq9nlUOx5UTv2t4w9AdH2QAl4CycRV%2BfzWOUK0YnHbpm0sLFtFmfag%3D%3D HTTP/1.1" 200 1653
+[01/Nov/2018 10:29:27] "GET /work/login?nsukey=TWKLZMhKzgkcILeFthxBXXR22pXB%2BZ5qRQka7FB1SeJYbz3b2ntG79RVYPVGyu0AWiA1vuiyrl8W6EEflJ3tRh7KXhPFQlBOUgyycow5JybPVTLf4KPEiO5BR94cx4igQb9c0QPMbGmZ69HMAlwonFSQxz56dMjLUq9nlUOx5UTv2t4w9AdH2QAl4CycRV%2BfzWOUK0YnHbpm0sLFtFmfag%3D%3D HTTP/1.1" 200 1653
+[01/Nov/2018 10:29:28] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 200 86709
+[01/Nov/2018 10:29:28] "GET /static/js/jquery-3.1.1.min.js HTTP/1.1" 200 86709
+[01/Nov/2018 10:29:29] "GET /static/js/popper.min.js HTTP/1.1" 200 19187
+[01/Nov/2018 10:29:29] "GET /static/js/bootstrap.js HTTP/1.1" 200 122441
+[01/Nov/2018 10:29:29] "GET /static/js/popper.min.js HTTP/1.1" 200 19187
+[01/Nov/2018 10:29:29] "GET /static/js/bootstrap.js HTTP/1.1" 200 122441
+[01/Nov/2018 10:29:35] "POST /work/dailyReports HTTP/1.1" 302 0
+[01/Nov/2018 10:29:35] "GET /work/dailyReports HTTP/1.1" 200 26636
+Not Found: /work/img/p1.jpg
+[WARNING][2018-11-01 10:29:35,978][log.py:228]Not Found: /work/img/p1.jpg
+[01/Nov/2018 10:29:35] "GET /work/img/p1.jpg HTTP/1.1" 404 3413
+Not Found: /work/img/p2.jpg
+[WARNING][2018-11-01 10:29:35,984][log.py:228]Not Found: /work/img/p2.jpg
+[01/Nov/2018 10:29:35] "GET /work/img/p2.jpg HTTP/1.1" 404 3413
+[01/Nov/2018 10:29:55] "GET /work/dailyReports HTTP/1.1" 200 26636
+Not Found: /work/img/p1.jpg
+[WARNING][2018-11-01 10:29:55,363][log.py:228]Not Found: /work/img/p1.jpg
+[01/Nov/2018 10:29:55] "GET /work/img/p1.jpg HTTP/1.1" 404 3413
+Not Found: /work/img/p2.jpg
+[WARNING][2018-11-01 10:29:55,425][log.py:228]Not Found: /work/img/p2.jpg
+[01/Nov/2018 10:29:55] "GET /work/img/p2.jpg HTTP/1.1" 404 3413
+[01/Nov/2018 10:32:12] "GET /work/projects HTTP/1.1" 200 21088
+[01/Nov/2018 10:32:12] "GET /work/dailyReports HTTP/1.1" 200 26636
+[INFO][2018-11-01 10:33:23,094][views.py:199]<QuerySet [{'project': '国金证券', 'total_time': 6.0}]>
+[INFO][2018-11-01 10:33:23,096][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 6.0}]>
+[01/Nov/2018 10:33:23] "GET /work/dashboard HTTP/1.1" 200 7587
+[01/Nov/2018 10:33:26] "GET /work/projects HTTP/1.1" 200 21088
+[INFO][2018-11-01 10:33:36,751][views.py:199]<QuerySet [{'project': '国金证券', 'total_time': 6.0}]>
+[INFO][2018-11-01 10:33:36,753][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 6.0}]>
+[01/Nov/2018 10:33:36] "GET /work/dashboard HTTP/1.1" 200 7587
+[01/Nov/2018 10:34:08] "GET /work/projects HTTP/1.1" 200 21088
+[INFO][2018-11-01 10:34:12,259][views.py:199]<QuerySet [{'project': '国金证券', 'total_time': 6.0}]>
+[INFO][2018-11-01 10:34:12,260][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 6.0}]>
+[01/Nov/2018 10:34:12] "GET /work/dashboard HTTP/1.1" 200 7587
+[01/Nov/2018 10:34:16] "GET /work/projects HTTP/1.1" 200 21088
+[01/Nov/2018 10:34:47] "GET /work/dailyReports HTTP/1.1" 200 26636
+Not Found: /work/img/p1.jpg
+[WARNING][2018-11-01 10:34:47,729][log.py:228]Not Found: /work/img/p1.jpg
+[01/Nov/2018 10:34:47] "GET /work/img/p1.jpg HTTP/1.1" 404 3413
+Not Found: /work/img/p2.jpg
+[WARNING][2018-11-01 10:34:47,738][log.py:228]Not Found: /work/img/p2.jpg
+[01/Nov/2018 10:34:47] "GET /work/img/p2.jpg HTTP/1.1" 404 3413
+[01/Nov/2018 10:35:04] "GET /work/del_dailyReports?id=10 HTTP/1.1" 200 15
+[01/Nov/2018 10:35:04] "GET /work/dailyReports HTTP/1.1" 200 26328
+Not Found: /work/img/p1.jpg
+[WARNING][2018-11-01 10:35:04,799][log.py:228]Not Found: /work/img/p1.jpg
+[01/Nov/2018 10:35:04] "GET /work/img/p1.jpg HTTP/1.1" 404 3413
+Not Found: /work/img/p2.jpg
+[WARNING][2018-11-01 10:35:04,807][log.py:228]Not Found: /work/img/p2.jpg
+[01/Nov/2018 10:35:04] "GET /work/img/p2.jpg HTTP/1.1" 404 3413
+Not Found: /favicon.ico
+[WARNING][2018-11-01 10:38:54,253][log.py:228]Not Found: /favicon.ico
+[01/Nov/2018 10:38:54] "GET /favicon.ico HTTP/1.1" 404 2082
+[01/Nov/2018 10:38:56] "GET /work/projects HTTP/1.1" 200 21088
+[01/Nov/2018 10:38:56] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[INFO][2018-11-01 10:39:01,819][views.py:199]<QuerySet [{'project': '国金证券', 'total_time': 6.0}]>
+[INFO][2018-11-01 10:39:01,821][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 6.0}]>
+[01/Nov/2018 10:39:01] "GET /work/dashboard HTTP/1.1" 200 7587
+[01/Nov/2018 10:39:07] "GET /work/projects HTTP/1.1" 200 21088
+[INFO][2018-11-01 10:39:07,468][views.py:199]<QuerySet [{'project': '国金证券', 'total_time': 6.0}]>
+[INFO][2018-11-01 10:39:07,470][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 6.0}]>
+[01/Nov/2018 10:39:07] "GET /work/dashboard HTTP/1.1" 200 7587
+[01/Nov/2018 10:39:10] "GET /work/dailyReports HTTP/1.1" 200 26328
+Not Found: /work/img/p1.jpg
+[WARNING][2018-11-01 10:39:10,518][log.py:228]Not Found: /work/img/p1.jpg
+[01/Nov/2018 10:39:10] "GET /work/img/p1.jpg HTTP/1.1" 404 3413
+Not Found: /work/img/p2.jpg
+[WARNING][2018-11-01 10:39:10,688][log.py:228]Not Found: /work/img/p2.jpg
+[01/Nov/2018 10:39:10] "GET /work/img/p2.jpg HTTP/1.1" 404 3413
+[01/Nov/2018 10:44:50] "GET /work/login HTTP/1.1" 200 1653
+Not Found: /favicon.ico
+[WARNING][2018-11-01 10:44:51,167][log.py:228]Not Found: /favicon.ico
+[01/Nov/2018 10:44:51] "GET /favicon.ico HTTP/1.1" 404 2082
+[01/Nov/2018 10:44:53] "POST /work/login HTTP/1.1" 302 0
+[01/Nov/2018 10:44:53] "GET /work/dailyReports HTTP/1.1" 200 26328
+[01/Nov/2018 10:44:54] "GET /work/login HTTP/1.1" 200 1653
+Not Found: /work/img/p2.jpg
+Not Found: /work/img/p1.jpg
+[WARNING][2018-11-01 10:44:54,210][log.py:228]Not Found: /work/img/p2.jpg
+[WARNING][2018-11-01 10:44:54,212][log.py:228]Not Found: /work/img/p1.jpg
+[01/Nov/2018 10:44:54] "GET /work/img/p2.jpg HTTP/1.1" 404 3413
+[01/Nov/2018 10:44:54] "GET /work/img/p1.jpg HTTP/1.1" 404 3413
+[01/Nov/2018 10:45:04] "GET /work/login HTTP/1.1" 200 1653
+[01/Nov/2018 10:45:04] "GET /work/projects HTTP/1.1" 200 21088
+Not Found: /
+[WARNING][2018-11-01 11:14:12,358][log.py:228]Not Found: /
+[01/Nov/2018 11:14:12] "GET / HTTP/1.1" 404 2031
+Not Found: /favicon.ico
+[WARNING][2018-11-01 11:14:13,372][log.py:228]Not Found: /favicon.ico
+[01/Nov/2018 11:14:13] "GET /favicon.ico HTTP/1.1" 404 2082
+[01/Nov/2018 11:14:20] "GET /work/login HTTP/1.1" 200 1653
+[01/Nov/2018 11:14:20] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[01/Nov/2018 11:14:21] "GET /static/css/style.css HTTP/1.1" 200 197782
+[01/Nov/2018 11:14:23] "POST /work/login HTTP/1.1" 200 30
+[01/Nov/2018 11:14:26] "GET /work/login HTTP/1.1" 200 1653
+[01/Nov/2018 11:14:38] "POST /work/login HTTP/1.1" 302 0
+[01/Nov/2018 11:14:38] "GET /work/dailyReports HTTP/1.1" 200 26328
+[01/Nov/2018 11:14:38] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 200 5222
+[01/Nov/2018 11:14:38] "GET /static/css/sweetalert.css HTTP/1.1" 200 18130
+Not Found: /work/img/p1.jpg
+[WARNING][2018-11-01 11:14:38,282][log.py:228]Not Found: /work/img/p1.jpg
+[01/Nov/2018 11:14:38] "GET /work/img/p1.jpg HTTP/1.1" 404 3413
+[01/Nov/2018 11:14:38] "GET /static/js/inspinia.js HTTP/1.1" 304 0
+[01/Nov/2018 11:14:38] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 304 0
+[01/Nov/2018 11:14:38] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 304 0
+[01/Nov/2018 11:14:38] "GET /static/js/echarts.js HTTP/1.1" 304 0
+Not Found: /work/img/p2.jpg
+[WARNING][2018-11-01 11:14:38,372][log.py:228]Not Found: /work/img/p2.jpg
+[01/Nov/2018 11:14:38] "GET /work/img/p2.jpg HTTP/1.1" 404 3413
+[01/Nov/2018 11:14:38] "GET /static/js/sweetalert.min.js HTTP/1.1" 200 16141
+[01/Nov/2018 11:14:39] "GET /static/css/dataTables/chineses.json HTTP/1.1" 304 0
+[01/Nov/2018 11:15:25] "GET /work/dailyReports HTTP/1.1" 200 26328
+Not Found: /work/img/p1.jpg
+[WARNING][2018-11-01 11:15:25,557][log.py:228]Not Found: /work/img/p1.jpg
+[01/Nov/2018 11:15:25] "GET /work/img/p1.jpg HTTP/1.1" 404 3413
+Not Found: /work/img/p2.jpg
+[WARNING][2018-11-01 11:15:25,571][log.py:228]Not Found: /work/img/p2.jpg
+[01/Nov/2018 11:15:25] "GET /work/img/p2.jpg HTTP/1.1" 404 3413
+[01/Nov/2018 11:36:17] "GET /work/dailyReports HTTP/1.1" 200 26328
+Not Found: /work/img/p1.jpg
+[WARNING][2018-11-01 11:36:17,376][log.py:228]Not Found: /work/img/p1.jpg
+[01/Nov/2018 11:36:17] "GET /work/img/p1.jpg HTTP/1.1" 404 3413
+Not Found: /work/img/p2.jpg
+[WARNING][2018-11-01 11:36:17,394][log.py:228]Not Found: /work/img/p2.jpg
+[01/Nov/2018 11:36:17] "GET /work/img/p2.jpg HTTP/1.1" 404 3413
+[INFO][2018-11-01 11:36:17,706][views.py:199]<QuerySet [{'project': '国金证券', 'total_time': 6.0}]>
+[INFO][2018-11-01 11:36:17,708][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 6.0}]>
+[01/Nov/2018 11:36:17] "GET /work/dashboard HTTP/1.1" 200 7587
+[01/Nov/2018 11:36:18] "GET /work/projects HTTP/1.1" 200 21088
+[01/Nov/2018 11:37:14] "POST /work/projects HTTP/1.1" 302 0
+[01/Nov/2018 11:37:14] "GET /work/projects HTTP/1.1" 200 21824
+[01/Nov/2018 11:37:15] "GET /work/projects HTTP/1.1" 200 21824
+[01/Nov/2018 11:37:16] "GET /work/dailyReports HTTP/1.1" 200 26450
+Not Found: /work/img/p1.jpg
+[WARNING][2018-11-01 11:37:17,014][log.py:228]Not Found: /work/img/p1.jpg
+[01/Nov/2018 11:37:17] "GET /work/img/p1.jpg HTTP/1.1" 404 3413
+Not Found: /work/img/p2.jpg
+[WARNING][2018-11-01 11:37:17,060][log.py:228]Not Found: /work/img/p2.jpg
+[01/Nov/2018 11:37:17] "GET /work/img/p2.jpg HTTP/1.1" 404 3413
+[01/Nov/2018 11:38:27] "POST /work/dailyReports HTTP/1.1" 302 0
+[01/Nov/2018 11:38:27] "GET /work/dailyReports HTTP/1.1" 200 27059
+Not Found: /work/img/p2.jpg
+[WARNING][2018-11-01 11:38:27,851][log.py:228]Not Found: /work/img/p2.jpg
+Not Found: /work/img/p1.jpg
+[WARNING][2018-11-01 11:38:27,853][log.py:228]Not Found: /work/img/p1.jpg
+[01/Nov/2018 11:38:27] "GET /work/img/p2.jpg HTTP/1.1" 404 3413
+[01/Nov/2018 11:38:27] "GET /work/img/p1.jpg HTTP/1.1" 404 3413
+[01/Nov/2018 11:46:58] "GET /work/projects HTTP/1.1" 200 21824
+[01/Nov/2018 11:47:07] "GET /work/projects HTTP/1.1" 200 21824
+[01/Nov/2018 11:47:10] "GET /work/login HTTP/1.1" 200 1653
+[01/Nov/2018 11:47:18] "POST /work/login HTTP/1.1" 302 0
+[01/Nov/2018 11:47:33] "GET /work/dailyReports HTTP/1.1" 200 27059
+[01/Nov/2018 11:47:33] "GET /work/login HTTP/1.1" 200 1653
+Not Found: /work/img/p1.jpg
+[WARNING][2018-11-01 11:47:33,582][log.py:228]Not Found: /work/img/p1.jpg
+[01/Nov/2018 11:47:33] "GET /work/img/p1.jpg HTTP/1.1" 404 3413
+Not Found: /work/img/p2.jpg
+[WARNING][2018-11-01 11:47:33,592][log.py:228]Not Found: /work/img/p2.jpg
+[01/Nov/2018 11:47:33] "GET /work/img/p2.jpg HTTP/1.1" 404 3413
+[01/Nov/2018 13:07:49] "GET /work/dailyReports HTTP/1.1" 200 27059
+[01/Nov/2018 13:07:52] "GET /work/projects HTTP/1.1" 200 21824
+[INFO][2018-11-01 13:08:01,183][views.py:199]<QuerySet [{'project': '国金证券', 'total_time': 6.0}, {'project': '玫琳凯', 'total_time': 2.0}]>
+[INFO][2018-11-01 13:08:01,185][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 8.0}]>
+[01/Nov/2018 13:08:01] "GET /work/dashboard HTTP/1.1" 200 7766
+[01/Nov/2018 13:08:04] "GET /work/dailyReports HTTP/1.1" 200 27059
+Not Found: /work/img/p1.jpg
+[WARNING][2018-11-01 13:08:05,086][log.py:228]Not Found: /work/img/p1.jpg
+[01/Nov/2018 13:08:05] "GET /work/img/p1.jpg HTTP/1.1" 404 3413
+Not Found: /work/img/p2.jpg
+[WARNING][2018-11-01 13:08:05,286][log.py:228]Not Found: /work/img/p2.jpg
+[01/Nov/2018 13:08:05] "GET /work/img/p2.jpg HTTP/1.1" 404 3413
+[01/Nov/2018 16:46:54] "GET /work/dailyReports HTTP/1.1" 200 18903
+[01/Nov/2018 16:46:57] "GET /static/js/echarts.js HTTP/1.1" 200 1188789
+[01/Nov/2018 16:46:57] "GET /work/projects HTTP/1.1" 200 21823
+[INFO][2018-11-01 16:46:59,514][views.py:199]<QuerySet [{'project': '国金证券', 'total_time': 6.0}, {'project': '玫琳凯', 'total_time': 2.0}]>
+[INFO][2018-11-01 16:46:59,516][views.py:204]<QuerySet [{'creator': 'zhangzihao@pachiratech.com', 'total_time': 8.0}]>
+[01/Nov/2018 16:46:59] "GET /work/dashboard HTTP/1.1" 200 7765
+[01/Nov/2018 16:47:01] "GET /work/projects HTTP/1.1" 200 21823
+[01/Nov/2018 16:47:07] "GET /work/dailyReports HTTP/1.1" 200 18903
+[01/Nov/2018 16:47:26] "GET /work/dailyReports HTTP/1.1" 200 18958
+[01/Nov/2018 16:47:42] "GET /work/dailyReports HTTP/1.1" 200 18960
+[01/Nov/2018 16:48:07] "GET /work/dailyReports HTTP/1.1" 200 18942
+[01/Nov/2018 16:48:27] "GET /work/dailyReports HTTP/1.1" 200 18953
+[01/Nov/2018 16:48:41] "GET /work/dailyReports HTTP/1.1" 200 18952
+[01/Nov/2018 16:48:58] "GET /work/dailyReports HTTP/1.1" 200 18952
+[01/Nov/2018 16:49:11] "GET /work/dailyReports HTTP/1.1" 200 18952
+[01/Nov/2018 16:53:09] "GET /work/dailyReports HTTP/1.1" 200 18968
+[01/Nov/2018 16:54:08] "GET /work/dailyReports HTTP/1.1" 200 20015
+[01/Nov/2018 16:54:59] "GET /work/dailyReports HTTP/1.1" 200 19980
+[01/Nov/2018 17:08:34] "GET /work/dailyReports HTTP/1.1" 200 37609
+[01/Nov/2018 17:08:34] "GET /static/css/chosen.css HTTP/1.1" 200 12188
+[01/Nov/2018 17:08:35] "GET /static/js/echarts.js HTTP/1.1" 304 0
+[01/Nov/2018 17:08:35] "GET /static/js/chosen.jquery.js HTTP/1.1" 200 47491
+[01/Nov/2018 17:13:04] "GET /work/dailyReports HTTP/1.1" 200 19249
+[01/Nov/2018 17:15:22] "GET /work/dailyReports HTTP/1.1" 200 19815
+[01/Nov/2018 17:17:03] "GET /work/dailyReports HTTP/1.1" 200 19954
+[01/Nov/2018 17:17:08] "GET /static/css/chosen-sprite.png HTTP/1.1" 404 1692
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 01, 2018 - 16:46:43
+Django version 2.1.2, using settings 'mysite.settings'
+Starting development server at http://0.0.0.0:63181/
+Quit the server with CONTROL-C.
+<QuerySet [{'id': 27, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '国金证券', 'working_time': 6.0, 'content': '项目上线，开放端口，测试mp3方式调听是否正常', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 28, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '玫琳凯', 'working_time': 2.0, 'content': '客服录音累计超过授权时长，导致识别失败，建议申请按周或者月授权', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 27, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '国金证券', 'working_time': 6.0, 'content': '项目上线，开放端口，测试mp3方式调听是否正常', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 28, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '玫琳凯', 'working_time': 2.0, 'content': '客服录音累计超过授权时长，导致识别失败，建议申请按周或者月授权', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 27, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '国金证券', 'working_time': 6.0, 'content': '项目上线，开放端口，测试mp3方式调听是否正常', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 28, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '玫琳凯', 'working_time': 2.0, 'content': '客服录音累计超过授权时长，导致识别失败，建议申请按周或者月授权', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 27, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '国金证券', 'working_time': 6.0, 'content': '项目上线，开放端口，测试mp3方式调听是否正常', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 28, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '玫琳凯', 'working_time': 2.0, 'content': '客服录音累计超过授权时长，导致识别失败，建议申请按周或者月授权', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 27, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '国金证券', 'working_time': 6.0, 'content': '项目上线，开放端口，测试mp3方式调听是否正常', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 28, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '玫琳凯', 'working_time': 2.0, 'content': '客服录音累计超过授权时长，导致识别失败，建议申请按周或者月授权', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 27, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '国金证券', 'working_time': 6.0, 'content': '项目上线，开放端口，测试mp3方式调听是否正常', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 28, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '玫琳凯', 'working_time': 2.0, 'content': '客服录音累计超过授权时长，导致识别失败，建议申请按周或者月授权', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 27, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '国金证券', 'working_time': 6.0, 'content': '项目上线，开放端口，测试mp3方式调听是否正常', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 28, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '玫琳凯', 'working_time': 2.0, 'content': '客服录音累计超过授权时长，导致识别失败，建议申请按周或者月授权', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 27, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '国金证券', 'working_time': 6.0, 'content': '项目上线，开放端口，测试mp3方式调听是否正常', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 28, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '玫琳凯', 'working_time': 2.0, 'content': '客服录音累计超过授权时长，导致识别失败，建议申请按周或者月授权', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 27, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '国金证券', 'working_time': 6.0, 'content': '项目上线，开放端口，测试mp3方式调听是否正常', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 28, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '玫琳凯', 'working_time': 2.0, 'content': '客服录音累计超过授权时长，导致识别失败，建议申请按周或者月授权', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 27, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '国金证券', 'working_time': 6.0, 'content': '项目上线，开放端口，测试mp3方式调听是否正常', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 28, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '玫琳凯', 'working_time': 2.0, 'content': '客服录音累计超过授权时长，导致识别失败，建议申请按周或者月授权', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 27, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '国金证券', 'working_time': 6.0, 'content': '项目上线，开放端口，测试mp3方式调听是否正常', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 28, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '玫琳凯', 'working_time': 2.0, 'content': '客服录音累计超过授权时长，导致识别失败，建议申请按周或者月授权', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 27, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '国金证券', 'working_time': 6.0, 'content': '项目上线，开放端口，测试mp3方式调听是否正常', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 28, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '玫琳凯', 'working_time': 2.0, 'content': '客服录音累计超过授权时长，导致识别失败，建议申请按周或者月授权', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 27, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '国金证券', 'working_time': 6.0, 'content': '项目上线，开放端口，测试mp3方式调听是否正常', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 28, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '玫琳凯', 'working_time': 2.0, 'content': '客服录音累计超过授权时长，导致识别失败，建议申请按周或者月授权', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 27, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '国金证券', 'working_time': 6.0, 'content': '项目上线，开放端口，测试mp3方式调听是否正常', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 28, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '玫琳凯', 'working_time': 2.0, 'content': '客服录音累计超过授权时长，导致识别失败，建议申请按周或者月授权', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 27, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '国金证券', 'working_time': 6.0, 'content': '项目上线，开放端口，测试mp3方式调听是否正常', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 28, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '玫琳凯', 'working_time': 2.0, 'content': '客服录音累计超过授权时长，导致识别失败，建议申请按周或者月授权', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 27, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '国金证券', 'working_time': 6.0, 'content': '项目上线，开放端口，测试mp3方式调听是否正常', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 28, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '玫琳凯', 'working_time': 2.0, 'content': '客服录音累计超过授权时长，导致识别失败，建议申请按周或者月授权', 'creator': 'zhangzihao@pachiratech.com'}]>
+<QuerySet [{'id': 27, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '国金证券', 'working_time': 6.0, 'content': '项目上线，开放端口，测试mp3方式调听是否正常', 'creator': 'zhangzihao@pachiratech.com'}, {'id': 28, 'date': datetime.date(2018, 11, 1), 'week': 3, 'project': '玫琳凯', 'working_time': 2.0, 'content': '客服录音累计超过授权时长，导致识别失败，建议申请按周或者月授权', 'creator': 'zhangzihao@pachiratech.com'}]>[01/Nov/2018 17:17:27] "GET /work/dailyReports HTTP/1.1" 200 19940
+[01/Nov/2018 17:22:17] "GET /work/dailyReports HTTP/1.1" 200 19958
+[01/Nov/2018 17:22:21] "GET /static/css/chosen-sprite.png HTTP/1.1" 404 1692
+[01/Nov/2018 17:23:06] "GET /work/dailyReports HTTP/1.1" 200 19971
+[01/Nov/2018 17:25:12] "GET /work/dailyReports HTTP/1.1" 200 19895
+[01/Nov/2018 17:26:32] "GET /work/dailyReports HTTP/1.1" 200 19778
+[01/Nov/2018 17:26:56] "GET /work/dailyReports HTTP/1.1" 200 19789
+[01/Nov/2018 17:27:54] "GET /work/dailyReports HTTP/1.1" 200 19857
+[01/Nov/2018 17:47:08] "GET /work/login HTTP/1.1" 200 1653
+[01/Nov/2018 17:47:08] "GET /static/css/dataTables/chineses.json HTTP/1.1" 200 737
+Not Found: /favicon.ico
+[WARNING][2018-11-01 17:47:09,016][log.py:228]Not Found: /favicon.ico
+[01/Nov/2018 17:47:09] "GET /favicon.ico HTTP/1.1" 404 2082
+[01/Nov/2018 18:57:56] "GET /work/login HTTP/1.1" 200 1653
+[01/Nov/2018 18:57:57] "GET /static/css/style.css HTTP/1.1" 200 197782
+[01/Nov/2018 18:57:57] "GET /static/css/bootstrap.css HTTP/1.1" 200 173442
+Not Found: /favicon.ico
+[WARNING][2018-11-01 18:57:57,801][log.py:228]Not Found: /favicon.ico
+[01/Nov/2018 18:57:57] "GET /favicon.ico HTTP/1.1" 404 2082
+[01/Nov/2018 18:57:58] "POST /work/login HTTP/1.1" 302 0
+[01/Nov/2018 18:57:59] "GET /work/dailyReports HTTP/1.1" 200 19857
+[01/Nov/2018 18:57:59] "GET /static/css/dataTables/dataTables.bootstrap4.min.css HTTP/1.1" 200 5222
+[01/Nov/2018 18:57:59] "GET /static/css/chosen.css HTTP/1.1" 200 12188
+[01/Nov/2018 18:57:59] "GET /work/login HTTP/1.1" 200 1653
+[01/Nov/2018 18:57:59] "GET /static/js/inspinia.js HTTP/1.1" 200 8916
+[01/Nov/2018 18:57:59] "GET /static/js/dataTables.bootstrap4.min.js HTTP/1.1" 200 2085
+[01/Nov/2018 18:57:59] "GET /static/js/chosen.jquery.js HTTP/1.1" 200 47491
+[01/Nov/2018 18:57:59] "GET /static/js/jquery.dataTables.min.js HTTP/1.1" 200 82411
+[01/Nov/2018 18:58:01] "GET /static/js/echarts.js HTTP/1.1" 200 1188789
+[01/Nov/2018 18:58:02] "GET /static/css/dataTables/chineses.json HTTP/1.1" 304 0
+[01/Nov/2018 18:58:10] "GET /work/login HTTP/1.1" 200 1653

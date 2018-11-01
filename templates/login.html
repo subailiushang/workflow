@@ -1,0 +1,55 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WorkSpace | 登陆</title>
+
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+    <link href="{% static 'css/font-awesome.css' %}" rel="stylesheet">
+
+    <link href="{% static 'css/animate.css' %}" rel="stylesheet">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg">
+
+<div class="middle-box text-center loginscreen animated fadeInDown">
+    <div>
+        <div>
+            <h1 class="logo-name">A+</h1>
+        </div>
+        <h3>Welcome to A+</h3>
+        <p>
+        </p>
+        <p>登陆</p>
+        <form class="m-t" role="form" action="{% url 'login' %}" method="post">
+            <div class="form-group">
+                <input type="text" class="form-control" name="username" required="">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="password" required="">
+            </div>
+            <button type="submit" class="btn btn-primary block full-width m-b">登陆</button>
+
+            <a class="btn btn-sm btn-white btn-block" href="{% url 'register' %}">创建账户</a>
+            {% csrf_token %}
+        </form>
+        <p class="m-t">
+            <small>pachia.cn &copy; 2018</small>
+        </p>
+    </div>
+</div>
+
+<script src="{% static 'js/jquery-3.1.1.min.js' %}"></script>
+<script src="{% static 'js/popper.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.js' %}"></script>
+
+</body>
+
+</html>
