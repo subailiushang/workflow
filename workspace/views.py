@@ -7,6 +7,7 @@ from datetime import datetime, date
 from django.db.models import Sum
 import logging
 import zmail
+from workspace import tasks
 
 logger = logging.getLogger("default")
 
