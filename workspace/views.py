@@ -4,9 +4,9 @@ from .models import Project, DailyReports, MyUser
 from django.contrib import auth
 from django.contrib.auth.decorators import login_required
 from datetime import datetime, date
+from django.core.mail import send_mail
 from django.db.models import Sum
 import logging
-import zmail
 from workspace import tasks
 
 logger = logging.getLogger("default")
@@ -83,7 +83,6 @@ def dailyReports(request):
         reports = DailyReports.objects.filter(creator=username).values()
         # 获取当前时间当前用户的日报内容--> 用于构造当日该用户日报内容
         todayReports = DailyReports.objects.filter(date=datetime.now(), creator=username).values()
-        print(todayReports)
         # 构造日报内容
         sumReports = ''
         for todayReport in todayReports:
@@ -110,6 +109,7 @@ def dailyReports(request):
                                             creator=username)
                 return redirect('dailyReports')
         else:
+            # 获取邮件的内容
             sumReports = request.POST.get('sumReports', None)
             # getlist方法获取下拉多选框的值,获取邮件接收用户
             receivers = request.POST.getlist('email', None)
@@ -117,24 +117,20 @@ def dailyReports(request):
 
             sender = MyUser.objects.get(username=username).email
             passwd = MyUser.objects.get(username=username).emailpasswd
-            subject = username + ":" + str(today) + "日报"
+            subject = str(today) + "日报"
 
             # 定义邮件发送功能
             # 1.邮件内容:主题+内容
-            mail_content = {
-                'subject': subject,
-                'content': sumReports,
-            }
             logger.info("邮件发送人:" + sender)
             logger.info("密码:" + passwd)
             logger.info("邮件接收人:" + str(receivers))
-            server = zmail.server(username=sender, password=passwd, smtp_host='smtp.pachiratech.com', smtp_port=25,
-                                  smtp_ssl=False)
-            if server.smtp_able():
-                logger.info('邮件连接正常')
-                server.send_mail(receivers, mail=mail_content)
-            else:
-                logger.info("邮件连接异常")
+            logger.info("开始发送邮件")
+            try:
+                send_mail(subject, sumReports, 'zhangzihao@pachiratech.com', recipient_list=receivers,
+                          fail_silently=False, auth_user=sender, auth_password=passwd)
+                logger.info("邮件发送成功")
+            except Exception:
+                logger.error("邮件发送失败")
             return redirect('dailyReports')
 
 
@@ -142,7 +138,7 @@ def dailyReports(request):
 def del_dailyReports(request):
     # 获取删除的id号对于的日报记录
     report_id = request.GET.get('id')
-    DailyReports.objects.filter(id=report_id).delete()
+    DailyReports.objects.filter(id=report_id, date=datetime.now().date()).delete()
     return JsonResponse(data={'status': '1'})
 
 

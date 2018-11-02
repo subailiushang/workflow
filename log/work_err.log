@@ -1173,3 +1173,22 @@ Traceback (most recent call last):
 TypeError: __init__() missing 1 required positional argument: 'data'
 [2018-10-31 21:11:56,640]-[Thread-1:140717874558720]-[task_id:django.security.DisallowedHost]-[exception.py:77]-[ERROR]-[Invalid HTTP_HOST header: '112.65.187.90:63181'. You may need to add '112.65.187.90' to ALLOWED_HOSTS.]
 [2018-10-31 21:11:56,766]-[Thread-3:140717874558720]-[task_id:django.security.DisallowedHost]-[exception.py:77]-[ERROR]-[Invalid HTTP_HOST header: '112.65.187.90:63181'. You may need to add '112.65.187.90' to ALLOWED_HOSTS.]
+[2018-11-02 21:00:58,520]-[Thread-26:572]-[task_id:django.request]-[log.py:228]-[ERROR]-[Internal Server Error: /work/dailyReports]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\echoz\Documents\GitHub\workflow\workspace\views.py", line 134, in dailyReports
+    fail_silently=False, auth_user='zhangzihao@pachiratech.com', auth_password='Zhangzihao@123')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\mail\__init__.py", line 56, in send_mail
+    mail = EmailMultiAlternatives(subject, message, from_email, recipient_list, connection=connection)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\mail\message.py", line 432, in __init__
+    headers, cc, reply_to,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\mail\message.py", line 210, in __init__
+    raise TypeError('"to" argument must be a list or tuple')
+TypeError: "to" argument must be a list or tuple

@@ -117,6 +117,14 @@ USE_TZ = True
 # 拓展用户表
 AUTH_USER_MODEL = 'workspace.MyUser'
 
+# 邮件定义
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+EMAIL_USE_TLS = False
+EMAIL_HOST = 'smtp.pachiratech.com'
+EMAIL_PORT = 25
+
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
